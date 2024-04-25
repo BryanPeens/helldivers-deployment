@@ -1,0 +1,10 @@
+{{!-- matches.handlebars --}}
+<div class="container">
+    <h1>Matches</h1>
+    <ul>
+        {{#each matches}}
+            <li>{{this.date}} - {{this.location}}</li>
+            <!-- Add any additional match details here -->
+        {{/each}}
+    </ul>
+</div>
