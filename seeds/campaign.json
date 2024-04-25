@@ -1,60 +1,28 @@
 [
     {
-        "planetIndex": 212,
-        "name": "Oshaune",
-        "faction": "Terminids",
-        "players": 92237,
-        "health": 58540,
-        "maxHealth": 300000,
-        "percentage": 80.48666666666666,
-        "defense": true,
-        "majorOrder": false,
-        "biome": {
-            "slug": "highlands",
-            "description": "Rocky outcroppings punctuate fields of tall grass in a planet dominated by misty highland terrain."
-        },
-        "expireDateTime": 1714044653.452
-    },
-    {
-        "planetIndex": 244,
-        "name": "Varylia 5",
+        "planetIndex": 242,
+        "name": "Ustotu",
         "faction": "Automatons",
-        "players": 15247,
-        "health": 163212,
+        "players": 22008,
+        "health": 119961,
         "maxHealth": 200000,
-        "percentage": 18.39399999999999,
+        "percentage": 40.0195,
         "defense": true,
         "majorOrder": false,
         "biome": {
-            "slug": "highlands",
-            "description": "Rocky outcroppings punctuate fields of tall grass in a planet dominated by misty highland terrain."
+            "slug": "desert",
+            "description": "A desert planet prone to unpredictable and dangerous,sand twisters."
         },
-        "expireDateTime": 1714044493.452
-    },
-    {
-        "planetIndex": 112,
-        "name": "Vernen Wells",
-        "faction": "Automatons",
-        "players": 27621,
-        "health": 56601,
-        "maxHealth": 1000000,
-        "percentage": 94.3399,
-        "defense": false,
-        "majorOrder": false,
-        "biome": {
-            "slug": "canyon",
-            "description": "This arid, rocky biome covering this world has driven the evolution of exceptionally efficient water usage in its various organisms."
-        },
-        "expireDateTime": null
+        "expireDateTime": 1714079241.805
     },
     {
         "planetIndex": 201,
         "name": "Meissa",
         "faction": "Automatons",
-        "players": 3975,
-        "health": 401125,
+        "players": 1926,
+        "health": 372920,
         "maxHealth": 1000000,
-        "percentage": 59.887499999999996,
+        "percentage": 62.708,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -67,10 +35,10 @@
         "planetIndex": 198,
         "name": "Marfark",
         "faction": "Automatons",
-        "players": 5371,
-        "health": 429553,
+        "players": 2809,
+        "health": 382840,
         "maxHealth": 1000000,
-        "percentage": 57.0447,
+        "percentage": 61.716,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -83,10 +51,10 @@
         "planetIndex": 158,
         "name": "Choepessa IV",
         "faction": "Automatons",
-        "players": 2665,
-        "health": 466736,
+        "players": 1116,
+        "health": 449715,
         "maxHealth": 1000000,
-        "percentage": 53.3264,
+        "percentage": 55.0285,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -99,10 +67,10 @@
         "planetIndex": 156,
         "name": "Charbal-VII",
         "faction": "Automatons",
-        "players": 1536,
-        "health": 483617,
+        "players": 563,
+        "health": 474302,
         "maxHealth": 1000000,
-        "percentage": 51.6383,
+        "percentage": 52.5698,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -112,13 +80,13 @@
         "expireDateTime": null
     },
     {
-        "planetIndex": 34,
-        "name": "Hellmire",
-        "faction": "Terminids",
-        "players": 9467,
-        "health": 1000000,
+        "planetIndex": 203,
+        "name": "Menkent",
+        "faction": "Automatons",
+        "players": 3771,
+        "health": 656836,
         "maxHealth": 1000000,
-        "percentage": 0,
+        "percentage": 34.3164,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -128,18 +96,50 @@
         "expireDateTime": null
     },
     {
+        "planetIndex": 194,
+        "name": "Lesath",
+        "faction": "Automatons",
+        "players": 1235,
+        "health": 729335,
+        "maxHealth": 1000000,
+        "percentage": 27.06649999999999,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "icemoss",
+            "description": "Ice and moss-covered rock can be found across most of the surface of this planet."
+        },
+        "expireDateTime": null
+    },
+    {
         "planetIndex": 259,
         "name": "Omicron",
         "faction": "Terminids",
-        "players": 11962,
-        "health": 1000000,
+        "players": 15135,
+        "health": 901486,
         "maxHealth": 1000000,
-        "percentage": 0,
+        "percentage": 9.851399999999998,
         "defense": false,
         "majorOrder": false,
         "biome": {
             "slug": "tundra",
             "description": "A perenially chilly climate has allowed short, colourful shrubs to flourish across this planet's surface."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 34,
+        "name": "Hellmire",
+        "faction": "Terminids",
+        "players": 13418,
+        "health": 928699,
+        "maxHealth": 1000000,
+        "percentage": 7.130099999999999,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "desolate",
+            "description": "Scorching temperatures, high winds, and low precipitation cause a near-constant cycle of fires to sweep this planet, punctuated by short bursts of lush rebirth between infernos."
         },
         "expireDateTime": null
     }
