@@ -6,8 +6,9 @@ const campaignData = require('./campaignData.json');
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
 
+  console.log(campaignData);
 
-const cleancampaignData = campaignData.map((campaign) => {
+const cleancampaignData = campaignData.map((campaign) => {  
   return {
     planetIndex: campaign.planetIndex,
     name: campaign.name,
@@ -23,6 +24,7 @@ const cleancampaignData = campaignData.map((campaign) => {
     expireDateTime: campaign.expireDateTime
   }
 })
+
 await Campaign.bulkCreate(cleancampaignData, {
     individualHooks: true,
     returning: true,

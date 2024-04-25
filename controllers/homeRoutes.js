@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, Match, Loadout, Strategy } = require('../models');
+const { User, Match, Loadout, Strategy, Campaign } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -110,6 +110,27 @@ router.get('/loadouts', async (req, res) => {
   try {
     const loadouts = await Loadout.findAll();
     res.render('loadouts', { loadouts });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+// get campaigns
+router.get('/campaigns', async (req, res) => {
+  try {
+    const campaignData = await Campaign.findAll({
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+        },
+      ],
+    });
+
+    const campaigns = campaignData.map(campaign => campaign.get({ plain: true }));
+    res.render('campaign', { 
+      campaigns,
+      logged_in: req.session.logged_in
+     });
   } catch (err) {
     res.status(500).json(err);
   }

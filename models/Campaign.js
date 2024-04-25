@@ -56,8 +56,8 @@ Campaign.init({
     },
     expireDateTime: {
         type: DataTypes.FLOAT,
-        allowNull: false
-    },
+        allowNull: true
+    }
 }, {
     sequelize,
     modelName: 'Campaign',
