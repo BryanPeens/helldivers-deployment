@@ -1,302 +1,242 @@
 [
     {
-        "id": 1,
-        "name": "anti-material-rifle"
-        filename: "anti-material-rifle.svg"
+        "name": "anti-material-rifle",
+        "filename": "anti-material-rifle.svg"
     },
     {
-        "id": 2,
-        "name": "anti-personnel-minefield"
-        filename: "anti-personnel-minefield.svg"
+        "name": "anti-personnel-minefield",
+        "filename": "anti-personnel-minefield.svg"
     },
     {
-        "id": 3,
-        "name": "arc-thrower"
-        filename: "arc-thrower.svg"
+        "name": "arc-thrower",
+        "filename": "arc-thrower.svg"
     },
     {
-        "id": 4,
-        "name": "autocannon-sentry"
-        filename: "autocannon-sentry.svg"
+        "name": "autocannon-sentry",
+        "filename": "autocannon-sentry.svg"
     },
     {
-        "id": 5,
-        "name": "ballistic-shield-backpack"
-        filename: "ballistic-shield-backpack.svg"
+        "name": "ballistic-shield-backpack",
+        "filename": "ballistic-shield-backpack.svg"
     },
     {
-        "id": 6,
-        "name": "eagle-110mm-rocket-pods"
-        filename: "eagle-110mm-rocket-pods.svg"
+        "name": "eagle-110mm-rocket-pods",
+        "filename": "eagle-110mm-rocket-pods.svg"
     },
     {
-        "id": 7,
-        "name": "eagle-500kg-bomb"
-        filename: "eagle-500kg-bomb.svg"
+        "name": "eagle-500kg-bomb",
+        "filename": "eagle-500kg-bomb.svg"
     },
     {
-        "id": 8,
-        "name": "eagle-airstrike"
-        filename: "eagle-airstrike.svg"
+        "name": "eagle-airstrike",
+        "filename": "eagle-airstrike.svg"
     },
     {
-        "id": 9,
-        "name": "eagle-cluster-bomb"
-        filename: "eagle-cluster-bomb.svg"
+        "name": "eagle-cluster-bomb",
+        "filename": "eagle-cluster-bomb.svg"
     },
     {
-        "id": 10,
-        "name": "eagle-napalm-airstrike"
-        filename: "eagle-napalm-airstrike.svg"
+        "name": "eagle-napalm-airstrike",
+        "filename": "eagle-napalm-airstrike.svg"
     },
     {
-        "id": 11,
-        "name": "eagle-rearm"
-        filename: "eagle-rearm.svg"
+        "name": "eagle-rearm",
+        "filename": "eagle-rearm.svg"
     },
     {
-        "id": 12,
-        "name": "eagle-smoke-strike"
-        filename: "eagle-smoke-strike.svg"
+        "name": "eagle-smoke-strike",
+        "filename": "eagle-smoke-strike.svg"
     },
     {
-        "id": 13,
-        "name": "eagle-strafing-run"
-        filename: "eagle-strafing-run.svg"
+        "name": "eagle-strafing-run",
+        "filename": "eagle-strafing-run.svg"
     },
     {
-        "id": 14,
-        "name": "ems-mortar-sentry"
-        filename: "ems-mortar-sentry.svg"
+        "name": "ems-mortar-sentry",
+        "filename": "ems-mortar-sentry.svg"
     },
     {
-        "id": 15,
-        "name": "expendable-anti-tank"
-        filename: "expendable-anti-tank.svg"
+        "name": "expendable-anti-tank",
+        "filename": "expendable-anti-tank.svg"
     },
     {
-        "id": 16,
-        "name": "flamethrower"
-        filename: "flamethrower.svg"
+        "name": "flamethrower",
+        "filename": "flamethrower.svg"
     },
     {
-        "id": 17,
-        "name": "gatling-sentry"
-        filename: "gatling-sentry.svg"
+        "name": "gatling-sentry",
+        "filename": "gatling-sentry.svg"
     },
     {
-        "id": 18,
-        "name": "grenade-launcher"
-        filename: "grenade-launcher.svg"
+        "name": "grenade-launcher",
+        "filename": "grenade-launcher.svg"
     },
     {
-        "id": 19,
-        "name": "guard-dog-rover"
-        filename: "guard-dog-rover.svg"
+        "name": "guard-dog-rover",
+        "filename": "guard-dog-rover.svg"
     },
     {
-        "id": 20,
-        "name": "guard-dog"
-        filename: "guard-dog.svg"
+        "name": "guard-dog",
+        "filename": "guard-dog.svg"
     },
     {
-        "id": 21,
         "name": "heavy-machine-gun",
-        filename: "heavy-machine-gun.svg"
+        "filename": "heavy-machine-gun.svg"
     },
     {
-        "id": 22,
-        "name": "hellbomb"
-        filename: "hellbomb.svg"
+        "name": "hellbomb",
+        "filename": "hellbomb.svg"
     },
     {
-        "id": 23,
-        "name": "hmg-emplacement"
-        filename: "hmg-emplacement.svg"
+        "name": "hmg-emplacement",
+        "filename": "hmg-emplacement.svg"
     },
     {
-        "id": 24,
-        "name": "incendiary-mines"
-        filename: "incendiary-mines.svg"
+        "name": "incendiary-mines",
+        "filename": "incendiary-mines.svg"
     },
     {
-        "id": 25,
-        "name": "jump-pack"
-        filename: "jump-pack.svg"
+        "name": "jump-pack",
+        "filename": "jump-pack.svg"
     },
     {
-        "id": 26,
-        "name": "laser-cannon"
-        filename: "laser-cannon.svg"
+        "name": "laser-cannon",
+        "filename": "laser-cannon.svg"
     },
     {
-        "id": 27,
-        "name": "machine-gun-sentry"
-        filename: "machine-gun-sentry.svg"
+        "name": "machine-gun-sentry",
+        "filename": "machine-gun-sentry.svg"
     },
     {
-        "id": 28,
-        "name": "machine-gun"
-        filename: "machine-gun.svg"
+        "name": "machine-gun",
+        "filename": "machine-gun.svg"
     },
     {
-        "id": 29,
-        "name": "mortar-sentry"
-        filename: "mortar-sentry.svg"
+        "name": "mortar-sentry",
+        "filename": "mortar-sentry.svg"
     },
     {
-        "id": 30,
-        "name": "orbital-120mm-he-barrage"
-        filename: "orbital-120mm-he-barrage.svg"
+        "name": "orbital-120mm-he-barrage",
+        "filename": "orbital-120mm-he-barrage.svg"
     },
     {
-        "id": 31,
-        "name": "orbital-380mm-he-barrage"
-        filename: "orbital-380mm-he-barrage.svg"
+        "name": "orbital-380mm-he-barrage",
+        "filename": "orbital-380mm-he-barrage.svg"
     },
     {
-        "id": 32,
-        "name": "orbital-airburst-strike"
-        filename: "orbital-airburst-strike.svg"
+        "name": "orbital-airburst-strike",
+        "filename": "orbital-airburst-strike.svg"
     },
     {
-        "id": 33,
-        "name": "orbital-ems-strike"
-        filename: "orbital-ems-strike.svg"
+        "name": "orbital-ems-strike",
+        "filename": "orbital-ems-strike.svg"
     },
     {
-        "id": 34,
-        "name": "orbital-gas-strike"
-        filename: "orbital-gas-strike.svg"
+        "name": "orbital-gas-strike",
+        "filename": "orbital-gas-strike.svg"
     },
     {
-        "id": 35,
-        "name": "orbital-gattling-barrage"
-        filename: "orbital-gattling-barrage.svg"
+        "name": "orbital-gattling-barrage",
+        "filename": "orbital-gattling-barrage.svg"
     },
     {
-        "id": 36,
-        "name": "orbital-illumination-flare"
-        filename: "orbital-illumination-flare.svg"
+        "name": "orbital-illumination-flare",
+        "filename": "orbital-illumination-flare.svg"
     },
     {
-        "id": 37,
-        "name": "orbital-laser"
-        filename: "orbital-laser.svg"
+        "name": "orbital-laser",
+        "filename": "orbital-laser.svg"
     },
     {
-        "id": 38,
-        "name": "orbital-precision-strike"
-        filename: "orbital-precision-strike.svg"
+        "name": "orbital-precision-strike",
+        "filename": "orbital-precision-strike.svg"
     },
     {
-        "id": 39,
-        "name": "orbital-railcannon-strike"
-        filename: "orbital-railcannon-strike.svg"
+        "name": "orbital-railcannon-strike",
+        "filename": "orbital-railcannon-strike.svg"
     },
     {
-        "id": 40,
-        "name": "orbital-smoke-strike"
-        filename: "orbital-smoke-strike.svg"
+        "name": "orbital-smoke-strike",
+        "filename": "orbital-smoke-strike.svg"
     },
     {
-        "id": 41,
-        "name": "orbital-walking-barrage"
-        filename: "orbital-walking-barrage.svg"
+        "name": "orbital-walking-barrage",
+        "filename": "orbital-walking-barrage.svg"
     },
     {
-        "id": 42,
-        "name": "patriot-exosuit"
-        filename: "patriot-exosuit.svg"
+        "name": "patriot-exosuit",
+        "filename": "patriot-exosuit.svg"
     },
     {
-        "id": 43,
-        "name": "prospecting-drill"
-        filename: "prospecting-drill.svg"
+        "name": "prospecting-drill",
+        "filename": "prospecting-drill.svg"
     },
     {
-        "id": 44,
-        "name": "quasar-cannon"
-        filename: "quasar-cannon.svg"
+        "name": "quasar-cannon",
+        "filename": "quasar-cannon.svg"
     },
     {
-        "id": 45,
-        "name": "railgun"
-        filename: "railgun.svg"
+        "name": "railgun",
+        "filename": "railgun.svg"
     },
     {
-        "id": 46,
-        "name": "recoilless-rifle"
-        filename: "recoilless-rifle.svg"
+        "name": "recoilless-rifle",
+        "filename": "recoilless-rifle.svg"
     },
     {
-        "id": 47,
-        "name": "reinforce"
-        filename: "reinforce.svg"
+        "name": "reinforce",
+        "filename": "reinforce.svg"
     },
     {
-        "id": 48,
-        "name": "resupply"
-        filename: "resupply.svg"
+        "name": "resupply",
+        "filename": "resupply.svg"
     },
     {
-        "id": 49,
-        "name": "rocket-sentry"
-        filename: "rocket-sentry.svg"
+        "name": "rocket-sentry",
+        "filename": "rocket-sentry.svg"
     },
     {
-        "id": 50,
-        "name": "seaf-artillery" 
-        filename: "seaf-artillery.svg"
+        "name": "seaf-artillery",
+        "filename": "seaf-artillery.svg"
     },
     {
-        "id": 51,
-        "name": "seismic-probe"
-        filename: "seismic-probe.svg"
+        "name": "seismic-probe",
+        "filename": "seismic-probe.svg"
     },
     {
-        "id": 52,
-        "name": "shield-generator-pack"
-        filename: "shield-generator-pack.svg"
+        "name": "shield-generator-pack",
+        "filename": "shield-generator-pack.svg"
     },
     {
-        "id": 53,
-        "name": "shield-generator-relay"
-        filename: "shield-generator-relay.svg"
+        "name": "shield-generator-relay",
+        "filename": "shield-generator-relay.svg"
     },
     {
-        "id": 54,
-        "name": "sos-beacon"
-        filename: "sos-beacon.svg"
+        "name": "sos-beacon",
+        "filename": "sos-beacon.svg"
     },
     {
-        "id": 55,
-        "name": "spear"
-        filename: "spear.svg"
+        "name": "spear",
+        "filename": "spear.svg"
     },
     {
-        "id": 56,
-        "name": "stalwart"
-        filename: "stalwart.svg"
+        "name": "stalwart",
+        "filename": "stalwart.svg"
     },
     {
-        "id": 57,
-        "name": "super-earth-flag"
-        filename: "super-earth-flag.svg"
+        "name": "super-earth-flag",
+        "filename": "super-earth-flag.svg"
     },
     {
-        "id": 58,
-        "name": "supply-pack"
-        filename: "supply-pack.svg"
+        "name": "supply-pack",
+        "filename": "supply-pack.svg"
     },
     {
-        "id": 59,
-        "name": "tesla-tower"
-        filename: "tesla-tower.svg"
+        "name": "tesla-tower",
+        "filename": "tesla-tower.svg"
     },
     {
-        "id": 60,
-        "name": "upload-data"
-        filename: "upload-data.svg"
+        "name": "upload-data",
+        "filename": "upload-data.svg"
     }
 ]
