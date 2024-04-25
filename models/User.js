@@ -20,6 +20,11 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    username: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true,
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -35,6 +40,10 @@ User.init(
         len: [8],
       },
     },
+    profile_picture: { 
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
     winCount: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -44,6 +53,15 @@ User.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 0,
+    },
+    title: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    level: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 1,
     },
   },
   {
