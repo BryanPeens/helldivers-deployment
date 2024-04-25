@@ -3,6 +3,7 @@ const User = require('./User');// Add User model import
 const Match = require('./Match');// Add Match model import
 const Strategy = require('./Strategy');// Add Strategy model import
 const Loadout = require('./Loadout'); // Add Loadout model import
+const Campaign = require('./Campaign'); // Add Campaign model import
 
 // Define associations between models
 User.hasMany(Match); // A user can participate in multiple matches (user can play many matches)
@@ -21,10 +22,14 @@ Strategy.belongsToMany(Match, { through: 'MatchStrategy' }); // A strategy can b
 Match.belongsToMany(Loadout, { through: 'MatchLoadout' }); // A match can have multiple loadouts associated
 Loadout.belongsToMany(Match, { through: 'MatchLoadout' }); // A loadout can be associated with multiple matches
 
+User.hasMany(Campaign); // A user can participate in multiple campaigns
+Campaign.belongsTo(User); // A campaign belongs to a user (each match is connected to a user)
+
 // Export models
 module.exports = {
   User,
   Match,
   Strategy,
   Loadout,
+  Campaign,
 };

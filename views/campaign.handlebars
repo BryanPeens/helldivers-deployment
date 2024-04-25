@@ -1,0 +1,10 @@
+{{!-- campaign.handlebars --}}
+<div class="container">
+    <h1>Campaign</h1>
+    <ul>
+        {{#each campaigns as |c| }}
+            <li>{{c.name}} - {{c.biomedescription}}</li>        
+            <!-- Add any additional match details here -->
+        {{/each}}
+    </ul>
+</div>
