@@ -11,27 +11,7 @@ Loadout.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    description: {
-      type: DataTypes.TEXT,
-      allowNull: false,
-    },
-    weapons: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    armor: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    stratagems: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    boosters: {
+    stratagems_id: {
       type: DataTypes.STRING,
       allowNull: false,
     },
