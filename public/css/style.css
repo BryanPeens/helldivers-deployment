@@ -22,3 +22,32 @@ header, .project:not(:last-child) {
   font-weight: bold;
   margin-left: -5px;
 }
+
+.diver_background{
+  background-image: url("../images/divers_bg.jpeg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.border-red{
+  border: 1px solid red;
+}
+
+.margin-at-top{
+  margin-top: 200px;
+}
+.form-container {
+  position: relative; /* Make the container position relative */
+}
+
+.sign-up-link {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #007bff;
+}
+
+.sign-up-link:hover {
+  text-decoration: underline;
+}
+

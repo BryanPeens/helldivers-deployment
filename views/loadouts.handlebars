@@ -1,0 +1,10 @@
+{{!-- loadouts.handlebars --}}
+<div class="container">
+    <h1>Loadouts</h1>
+    <ul>
+        {{#each loadouts}}
+            <li>{{this.name}} - {{this.description}}</li>
+            <!-- Add any additional loadout details here -->
+        {{/each}}
+    </ul>
+</div>
