@@ -1,0 +1,17 @@
+[
+  {
+    "userId": 1,
+    "strategyName": "Aggressive Attack",
+    "strategyDescription": "Focus on quick and aggressive gameplay."
+  },
+  {
+    "userId": 2,
+    "strategyName": "Defensive Strategy",
+    "strategyDescription": "Prioritize defense and counterattacks."
+  },
+  {
+    "userId": 3,
+    "strategyName": "Balanced Approach",
+    "strategyDescription": "Maintain balance between offense and defense."
+  }
+]

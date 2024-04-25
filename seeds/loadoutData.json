@@ -1,0 +1,17 @@
+[
+    {
+      "userId": 1,
+      "loadoutName": "Aggressive Loadout",
+      "loadoutDescription": "Loadout optimized for aggressive playstyle."
+    },
+    {
+      "userId": 2,
+      "loadoutName": "Defensive Loadout",
+      "loadoutDescription": "Loadout focused on defense and survivability."
+    },
+    {
+      "userId": 3,
+      "loadoutName": "Balanced Loadout",
+      "loadoutDescription": "Loadout designed for balanced approach."
+    }
+  ]

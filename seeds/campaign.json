@@ -1,0 +1,146 @@
+[
+    {
+        "planetIndex": 242,
+        "name": "Ustotu",
+        "faction": "Automatons",
+        "players": 22008,
+        "health": 119961,
+        "maxHealth": 200000,
+        "percentage": 40.0195,
+        "defense": true,
+        "majorOrder": false,
+        "biome": {
+            "slug": "desert",
+            "description": "A desert planet prone to unpredictable and dangerous,sand twisters."
+        },
+        "expireDateTime": 1714079241.805
+    },
+    {
+        "planetIndex": 201,
+        "name": "Meissa",
+        "faction": "Automatons",
+        "players": 1926,
+        "health": 372920,
+        "maxHealth": 1000000,
+        "percentage": 62.708,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "jungle",
+            "description": "Abundant with life, this wet planet is covered in deep oceans, thick forests, and tall grasses."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 198,
+        "name": "Marfark",
+        "faction": "Automatons",
+        "players": 2809,
+        "health": 382840,
+        "maxHealth": 1000000,
+        "percentage": 61.716,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "winter",
+            "description": "Submerged in eternal winter, this world's frosty peaks glimmer in the light of its too-distant star."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 158,
+        "name": "Choepessa IV",
+        "faction": "Automatons",
+        "players": 1116,
+        "health": 449715,
+        "maxHealth": 1000000,
+        "percentage": 55.0285,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "icemoss",
+            "description": "Ice and moss-covered rock can be found across most of the surface of this planet."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 156,
+        "name": "Charbal-VII",
+        "faction": "Automatons",
+        "players": 563,
+        "health": 474302,
+        "maxHealth": 1000000,
+        "percentage": 52.5698,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "toxic",
+            "description": "Dense, toxic fumes from deep within the planet's crust seep out of cracks in the earth and coat the ground in a sickly haze."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 203,
+        "name": "Menkent",
+        "faction": "Automatons",
+        "players": 3771,
+        "health": 656836,
+        "maxHealth": 1000000,
+        "percentage": 34.3164,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "desolate",
+            "description": "Scorching temperatures, high winds, and low precipitation cause a near-constant cycle of fires to sweep this planet, punctuated by short bursts of lush rebirth between infernos."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 194,
+        "name": "Lesath",
+        "faction": "Automatons",
+        "players": 1235,
+        "health": 729335,
+        "maxHealth": 1000000,
+        "percentage": 27.06649999999999,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "icemoss",
+            "description": "Ice and moss-covered rock can be found across most of the surface of this planet."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 259,
+        "name": "Omicron",
+        "faction": "Terminids",
+        "players": 15135,
+        "health": 901486,
+        "maxHealth": 1000000,
+        "percentage": 9.851399999999998,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "tundra",
+            "description": "A perenially chilly climate has allowed short, colourful shrubs to flourish across this planet's surface."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 34,
+        "name": "Hellmire",
+        "faction": "Terminids",
+        "players": 13418,
+        "health": 928699,
+        "maxHealth": 1000000,
+        "percentage": 7.130099999999999,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "desolate",
+            "description": "Scorching temperatures, high winds, and low precipitation cause a near-constant cycle of fires to sweep this planet, punctuated by short bursts of lush rebirth between infernos."
+        },
+        "expireDateTime": null
+    }
+]
