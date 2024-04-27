@@ -1,96 +1,96 @@
-const router = require('express').Router();
-const { User, Match, Loadout, Campaign } = require('../models');
-const withAuth = require('../utils/auth');
+const router = require("express").Router();
+const { User, Match, Loadout, Campaign, Stratagem } = require("../models");
+const withAuth = require("../utils/auth");
 
-router.get('/', async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const matchData = await Match.findAll({
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ["name"],
         },
       ],
     });
 
     const matches = matchData.map((match) => match.get({ plain: true }));
 
-    res.render('home', { 
-      matches, 
-      logged_in: req.session.logged_in
+    res.render("home", {
+      matches,
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-router.get('/match/:id', async (req, res) => {
+router.get("/match/:id", async (req, res) => {
   try {
     const matchData = await Match.findByPk(req.params.id, {
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ["name"],
         },
       ],
     });
 
     const match = matchData.get({ plain: true });
 
-    res.render('match', {
+    res.render("match", {
       ...match,
-      logged_in: req.session.logged_in
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-router.get('/dashboard', withAuth, async (req, res) => {
+router.get("/dashboard", withAuth, async (req, res) => {
   try {
     const userData = await User.findByPk(req.session.user_id, {
-      attributes: { exclude: ['password'] },
+      attributes: { exclude: ["password"] },
       include: [{ model: Loadout }],
     });
 
     const user = userData.get({ plain: true });
 
-    res.render('dashboard', {
+    res.render("dashboard", {
       ...user,
-      logged_in: true
+      logged_in: true,
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
-router.get('/login', (req, res) => {
+router.get("/login", (req, res) => {
   if (req.session.logged_in) {
-    res.redirect('/dashboard');
+    res.redirect("/dashboard");
     return;
   }
 
-  res.render('login');
+  res.render("login");
 });
 
 // routes for links to views
 // get matches
-router.get('/matches', async (req, res) => {
+router.get("/matches", async (req, res) => {
   try {
     const matchData = await Match.findAll({
       include: [
         {
           model: User,
-          attributes: ['name'],
+          attributes: ["name"],
         },
       ],
     });
 
-    const matches = matchData.map(match => match.get({ plain: true }));
+    const matches = matchData.map((match) => match.get({ plain: true }));
 
-    res.render('matches', {
+    res.render("matches", {
       matches,
-      logged_in: req.session.logged_in
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     res.status(500).json(err);
@@ -98,19 +98,42 @@ router.get('/matches', async (req, res) => {
 });
 
 // get loadouts
-router.get('/loadouts', async (req, res) => {
+router.get("/loadouts", async (req, res) => {
   try {
-    res.render('loadouts');
+    res.render("loadouts");
   } catch (err) {
     res.status(500).json(err);
   }
 });
 
 // get campaigns
+// get campaigns
 router.get('/campaigns', async (req, res) => {
   console.log("============================================================= Now inside campaigns");
   try {
-    res.render('campaign');
+    const campaignData = await Campaign.findAll({
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+        },
+      ],
+    });
+    const campaigns = campaignData.map(campaign => campaign.get({ plain: true }));
+    res.render('campaign', { 
+      campaigns,
+      logged_in: req.session.logged_in
+     });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get("/stratagems", async (req, res) => {
+  try {
+    console.log("================================= INSIDE STRATAGEM");
+    const stratagems = await Stratagem.findAll();
+    res.render("stratagems", { stratagems });
   } catch (err) {
     res.status(500).json(err);
   }

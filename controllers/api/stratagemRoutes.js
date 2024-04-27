@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { Strategy } = require('../../models');
+const { Stratagem } = require('../../models');
 
 router.get('/', async (req, res) => {
   try {
     const strategies = await Strategy.findAll();
-    res.render('strategies', { strategies });
+    res.render('stratagems', { strategies });
   } catch (err) {
     res.status(500).json(err);
   }
