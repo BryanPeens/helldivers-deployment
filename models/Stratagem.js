@@ -1,10 +1,11 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+
+const { DataTypes, Model } = require('sequelize');
+const sequelize = require('../config/connection'); 
 
 class Stratagem extends Model {}
 
-Stratagem.init({
-    id: {
+Stratagem.init({ 
+    id: { 
         type: DataTypes.INTEGER,
         allowNull: false,
         primaryKey: true,
@@ -16,17 +17,16 @@ Stratagem.init({
     },
     type: {
         type: DataTypes.STRING,
-        allowNull: false
+        allowNull: true
     },
     description: {
         type: DataTypes.STRING,
-        allowNull: false
-    },
-    filename: {
+        allowNull: true
+    }, 
+    filename: { 
         type: DataTypes.STRING,
         allowNull: false
     },
-
 }, {
     sequelize,
     timestamps: false,
@@ -36,3 +36,4 @@ Stratagem.init({
 });
 
 module.exports = Stratagem;
+

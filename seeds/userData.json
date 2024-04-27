@@ -1,17 +1,26 @@
 [
   {
     "name": "John Doe",
-    "email": "john@example.com",
+    "username": "Mr.Nobody",
+    "email": "john@gmail.com",
     "password": "password123"
   },
   {
     "name": "Jane Smith",
-    "email": "jane@example.com",
+    "username": "GrannySmith257",
+    "email": "jane@gmail.com",
     "password": "securepassword"
   },
   {
     "name": "Adam Johnson",
-    "email": "adam@example.com",
+    "username": "L0RD_Jh0n50n",
+    "email": "adam@gmail.com",
     "password": "strongpassword"
+  },
+  {
+    "name": "Edward Lawrence",
+    "username": "Zedward",
+    "email": "edward@gmail.com",
+    "password": "password123"
   }
 ]
