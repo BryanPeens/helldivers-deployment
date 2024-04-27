@@ -1,22 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
 
-*{
-  
-}
+
 .container {
   display: grid;
   grid-template-columns: 300px 300px 300px 300px;
   grid-gap: 10px;
   justify-content: center;
   align-items: center;
-  /* background-color: #f5f5f5; */
   font-family: 'Baloo Paaji 2', cursive;
   margin-top: 10px;
 }
 
 .card {
   background-color: #222831;
-  /* height: 37rem; */
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -28,7 +24,6 @@
 .card__name {
   border: 1px solid red;
   width: 100%;
-  /* margin-left: 6px; */
 }
 
 .card_badge{
@@ -41,7 +36,6 @@
   width: 160px;
   border-radius: 50%;
   border: 5px solid #272133;
-  /* margin-top: 20px; */
   box-shadow: 0 10px 50px #e4b176;
 }
 .card__image_2 {
@@ -49,7 +43,6 @@
   width: 160px;
   border-radius: 50%;
   border: 5px solid #272133;
-  /* margin-top: 20px; */
   box-shadow: 0 10px 50px #a9c7ff;
 }
 .card__image_3 {
@@ -57,7 +50,6 @@
   width: 160px;
   border-radius: 50%;
   border: 5px solid #272133;
-  /* margin-top: 20px; */
   box-shadow: 0 10px 50px #f6aafc;
 }
 .card__image_4 {
@@ -65,7 +57,6 @@
   width: 160px;
   border-radius: 50%;
   border: 5px solid #272133;
-  /* margin-top: 20px; */
   box-shadow: 0 10px 50px #b1f798;
 }
 
@@ -130,7 +121,6 @@
   cursor: pointer;
   line-height: 1.5;
   font: 700 1.2rem 'Roboto Slab', sans-serif;
-  /* padding: 0.75em 2em; */
   letter-spacing: 0.05rem;
   margin: 1em;
   width: 98%;
@@ -144,8 +134,6 @@
 .social-icons {
   padding: 0;
   list-style: none;
-  /* margin: 1em; */
-  /* border: 1px solid red; */
 }
 
 .social-icons li {
@@ -180,14 +168,13 @@
 }
 
 .social-icons a:hover:before {
-  border-color: transparent; /* Hide border on hover */
+  border-color: transparent;
 }
 
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-gap: 20px; */
   font-size: 1.2em;
   margin-top: 15px;
 }
