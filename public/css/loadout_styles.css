@@ -1,0 +1,181 @@
+.margin-above{
+    margin-top: 30px;
+}
+
+.loadout-container {
+    display: flex;
+    padding: 20px;
+}
+
+.card-container {
+    flex: 1;
+}
+.card_name{
+    border: 1px solid gray;
+    padding: 2px;
+}
+
+.menu-container {
+    flex: 1;
+    padding: 20px;
+    background: none;
+    top: -450px;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu-container {
+        flex: 1;
+        padding: 10px; /* Adjust padding as needed for small devices */
+        background: none;
+        top: 0;
+        position: relative;
+        background: gray;
+    }
+}
+
+.game-style-menu {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.menu-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.armor-options,
+.weapon-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.armor-option,
+.weapon-option {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.armor-option img,
+.weapon-option img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px dashed yellow;
+}
+
+.armor-option.selected,
+.weapon-option.selected {
+    border: 2px solid #ffba08;
+}
+
+.btn {
+    background: none;
+    border: 1px dashed yellow;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 0.75em 2em;
+    letter-spacing: 0.05rem;
+    margin: 1em;
+    width: 98%;
+}
+
+.btn:focus {
+    outline: 2px dotted yellow;
+}
+
+.social-icons {
+    padding: 0;
+    list-style: none;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1em;
+    border: 1px dashed yellow;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    display: block;
+}
+
+.social-icons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+.draw-border {
+    color: yellow;
+    -webkit-transition: color 0.25s 0.0833333333s;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+    border: 1px dashed yellow;
+  }
+  
+  .draw-border::before,
+  .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0rem;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+  }
+  
+  .draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+  }
+  
+  .draw-border:hover {
+    color: #ffe593;
+  }
+  
+  .draw-border:hover::before,
+  .draw-border:hover::after {
+    border-color: yellow;
+    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .draw-border:hover::before {
+    -webkit-transition-delay: 0s, 0s, 0.25s;
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  
+  .draw-border:hover::after {
+    -webkit-transition-delay: 0s, 0.25s, 0s;
+    transition-delay: 0s, 0.25s, 0s;
+  }
