@@ -3,8 +3,20 @@
     <h1>Campaign</h1>
     <ul>
         {{#each campaigns as |c| }}
-            <li>{{c.name}} - {{c.biomedescription}}</li>        
-            <!-- Add any additional match details here -->
+            <li>
+                <p>Name: {{c.name}}</p>
+                <p>Planet Index: {{c.planetIndex}}</p>
+                <p>Faction: {{c.faction}}</p>
+                <p>Players: {{c.players}}</p>
+                <p>Health: {{c.health}}</p>
+                <p>Max Health: {{c.maxHealth}}</p>
+                <p>Percentage: {{c.percentage}}</p>
+                <p>Defense: {{c.defense}}</p>
+                <p>Major Order: {{c.majorOrder}}</p>
+                <p>Biome: {{c.biome}}</p>
+                <p>Biome Description: {{c.biomedescription}}</p>
+                <!-- Add any additional campaign details here -->
+            </li>
         {{/each}}
     </ul>
 </div>
