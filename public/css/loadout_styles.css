@@ -27,7 +27,7 @@
 @media only screen and (max-width: 768px) {
     .menu-container {
         flex: 1;
-        padding: 10px; /* Adjust padding as needed for small devices */
+        padding: 10px;
         background: none;
         top: 0;
         position: relative;
