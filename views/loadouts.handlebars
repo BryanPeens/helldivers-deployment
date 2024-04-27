@@ -1,5 +1,5 @@
 <div class="margin-above">
-    <div class="loadout_container">
+    <div class="">
         <div class="card-container">
             <div class="card">
                 <p class="card_name"><a class="card_badge">Badge</a>Logged in player name</p>
@@ -12,15 +12,12 @@
                         1012 LOSSES
                     </div>
                 </div>
+                <!-- Add an id to the target image -->
                 <ul class="social-icons">
-                    <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a>
-                    </li>
-                    <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a>
-                    </li>
-                    <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a>
-                    </li>
-                    <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a>
-                    </li>
+                    <li><a href="#"><img id="stratagem" src="/images/stratagems/anti-materiel-rifle.svg" alt="Stratagem" class=""></a></li>
+                    <li><a href="#"><img id="orbital_cannon" src="/images/stratagems/anti-materiel-rifle.svg" alt="Cannons" class=""></a></li>
+                    <li><a href="#"><img id="hangar" src="/images/stratagems/anti-materiel-rifle.svg" alt="Hangar" class=""></a></li>
+                    <li><a href="#"><img id="bridge" src="/images/stratagems/anti-materiel-rifle.svg" alt="Bridge" class=""></a></li>
                 </ul>
                 <button class="btn draw-border">SAVE LOADOUT</button>
             </div>
@@ -28,97 +25,144 @@
 
         <div class="menu-container">
             <div class="game-style-menu">
-                <div class="menu-heading">Stratagems:</div>
-                <div class="weapon-options">
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 1">
+                {{!-- Stratagem menu options --}}
+                <div class="menu-heading">Support Weapons:</div>
+                <div class="weapon-options support-weapons">
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/machine-gun.svg" alt="Weapon 1">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/arc-thrower.svg" alt="Weapon 2">
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 2">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/grenade-launcher.svg" alt="Weapon 3">
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/stalwart.svg" alt="Weapon 3">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/machine-gun.svg" alt="Weapon 4">
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/expendable-anti-tank.svg" alt="Weapon 4">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
+                    <label class="menu-item weapon-option draw-border stratagem-option">
                         <img src="/images/stratagems/recoilless-rifle.svg" alt="Weapon 5">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/laser-cannon.svg" alt="Weapon 6">
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/flamethrower.svg" alt="Weapon 6">
+                    </label>
+
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/autocannon.svg" alt="Weapon 6">
+                    </label>
+
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/heavy-machine-gun.svg" alt="Weapon 6">
+                    </label>
+
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/railgun.svg" alt="Weapon 6">
+                    </label>
+
+                    <label class="menu-item weapon-option draw-border stratagem-option">
+                        <img src="/images/stratagems/spear.svg" alt="Weapon 6">
                     </label>
                 </div>
 
-                <div class="menu-heading">Bestiary:</div>
-                <div class="weapon-options">
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 1">
+
+                {{!-- Orbital Cannons menu options --}}
+                <div class="menu-heading">Orbital Cannons:</div>
+                <div class="weapon-options orbital-cannon-weapons">
+                    <label class="menu-item weapon-option draw-border orbital-cannon-option">
+                        <img src="/images/stratagems/orbital-gatling-barrage.svg" alt="Orbital Cannons 1">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 2">
+
+                    <label class="menu-item weapon-option draw-border orbital-cannon-option">
+                        <img src="/images/stratagems/orbital-airburst-strike.svg" alt="Orbital Cannons 2">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 3">
+
+                    <label class="menu-item weapon-option draw-border orbital-cannon-option">
+                        <img src="/images/stratagems/orbital-120mm-he-barrage.svg" alt="Orbital Cannons 3">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 4">
+
+                    <label class="menu-item weapon-option draw-border orbital-cannon-option">
+                        <img src="/images/stratagems/orbital-380mm-he-barrage.svg" alt="Orbital Cannons 4">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 4">
+
+                    <label class="menu-item weapon-option draw-border orbital-cannon-option">
+                        <img src="/images/stratagems/orbital-walking-barrage.svg" alt="Orbital Cannons 5">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 4">
+                    <label class="menu-item weapon-option draw-border orbital-cannon-option">
+                        <img src="/images/stratagems/orbital-laser.svg" alt="Orbital Cannons 6">
+                    </label>
+
+                    <label class="menu-item weapon-option draw-border orbital-cannon-option">
+                        <img src="/images/stratagems/orbital-railcannon-strike.svg" alt="Orbital Cannons 7">
                     </label>
                 </div>
 
-                <div class="menu-heading">Equipment:</div>
-                <div class="weapon-options">
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 1">
+
+                {{!-- Hangar menu options --}}
+                <div class="menu-heading">Hangar:</div>
+                <div class="weapon-options hangar-weapons">
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/eagle-strafing-run.svg" alt="hangar 1">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 2">
+
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/eagle-airstrike.svg" alt="hangar 2">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 3">
+
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/eagle-cluster-bomb.svg" alt="hangar 3">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 4">
+
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/eagle-napalm-airstrike.svg" alt="hangar 4">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 5">
+
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/jump-pack.svg" alt="hangar 5">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 6">
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/eagle-smoke-strike.svg" alt="hangar 6">
+                    </label>
+
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/eagle-110mm-rocket-pods.svg" alt="hangar 7">
+                    </label>
+
+                    <label class="menu-item weapon-option draw-border hangar-option">
+                        <img src="/images/stratagems/eagle-500kg-bomb.svg" alt="hangar 7">
                     </label>
                 </div>
 
-                {{!-- <div class="menu-heading">Miscellaneous:</div>
-                <div class="weapon-options">
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 1">
+                {{!-- Bridge menu options --}}
+                <div class="menu-heading">Bridge:</div>
+                <div class="weapon-options bridge-weapons">
+                    <label class="menu-item weapon-option draw-border bridge-option">
+                        <img src="/images/stratagems/orbital-precision-strike.svg" alt="bridge 1">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 2">
+
+                    <label class="menu-item weapon-option draw-border bridge-option">
+                        <img src="/images/stratagems/orbital-gas-strike.svg" alt="bridge 2">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 3">
+
+                    <label class="menu-item weapon-option draw-border bridge-option">
+                        <img src="/images/stratagems/orbital-ems-strike.svg" alt="bridge 3">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 4">
+
+                    <label class="menu-item weapon-option draw-border bridge-option">
+                        <img src="/images/stratagems/orbital-smoke-strike.svg" alt="bridge 4">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 5">
+
+                    <label class="menu-item weapon-option draw-border bridge-option">
+                        <img src="/images/stratagems/hmg-emplacement.svg" alt="bridge 5">
                     </label>
-                    <label class="menu-item weapon-option draw-border">
-                        <img src="/images/stratagems/anti-materiel-rifle.svg" alt="Weapon 6">
+                    <label class="menu-item weapon-option draw-border bridge-option">
+                        <img src="/images/stratagems/shield-generator-relay.svg" alt="bridge 6">
                     </label>
-                </div> --}}
+
+                    <label class="menu-item weapon-option draw-border bridge-option">
+                        <img src="/images/stratagems/tesla-tower.svg" alt="bridge 7">
+                    </label>
+                </div>
             </div>
         </div>
-
     </div>
-
-
 </div>
