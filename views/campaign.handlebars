@@ -1,10 +1,29 @@
 {{!-- campaign.handlebars --}}
-<div class="container">
+<div class="campaign-container">
     <h1>Campaign</h1>
-    <ul>
-        {{#each campaigns as |c| }}
-            <li>{{c.name}} - {{c.biomedescription}}</li>        
-            <!-- Add any additional match details here -->
+    <div class="campaign">{{#each campaigns as |c| }}
+        <ul>
+            <div class="campaign-card">
+                <h2 class="planetname">{{c.name}}</h2>
+                <h4 class="faction">{{c.faction}}</h4>
+                <h4 class="player count"><img title = "Player Count" class ="player-count-image"src="{{playercount}}" alt="Player Count"> {{c.players}}</h4>
+
+                <h6 class="biome">Biome: {{c.biome}}</h6>
+                <p class="biome_desc">Details: {{c.biomedescription}}</p>
+            </div><!-- Add any additional match details here -->
+        </ul>
         {{/each}}
-    </ul>
+    </div>
 </div>
+<div>
+    <div slot="campaign-top-content" class="campaign-top-wrapper">
+        <div>
+            <span>
+                <div>
+
+                </div>
+            </span>
+        </div>
+    </div>
+</div>
+<script src="./js/campaign.js"></script>

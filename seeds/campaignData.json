@@ -1,44 +1,12 @@
 [
     {
-        "planetIndex": 242,
-        "name": "Ustotu",
-        "faction": "Automatons",
-        "players": 22008,
-        "health": 119961,
-        "maxHealth": 200000,
-        "percentage": 40.0195,
-        "defense": true,
-        "majorOrder": false,
-        "biome": {
-            "slug": "desert",
-            "description": "A desert planet prone to unpredictable and dangerous,sand twisters."
-            },
-        "expireDateTime": 1714079241.805
-    },
-    {
-        "planetIndex": 201,
-        "name": "Meissa",
-        "faction": "Automatons",
-        "players": 1926,
-        "health": 372920,
-        "maxHealth": 1000000,
-        "percentage": 62.708,
-        "defense": false,
-        "majorOrder": false,
-        "biome": {
-            "slug": "jungle",
-            "description": "Abundant with life, this wet planet is covered in deep oceans, thick forests, and tall grasses."
-        },
-        "expireDateTime": null
-    },
-    {
         "planetIndex": 198,
         "name": "Marfark",
         "faction": "Automatons",
-        "players": 2809,
-        "health": 382840,
+        "players": 2470,
+        "health": 339019,
         "maxHealth": 1000000,
-        "percentage": 61.716,
+        "percentage": 66.09809999999999,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -48,13 +16,29 @@
         "expireDateTime": null
     },
     {
+        "planetIndex": 201,
+        "name": "Meissa",
+        "faction": "Automatons",
+        "players": 1550,
+        "health": 407075,
+        "maxHealth": 1000000,
+        "percentage": 59.2925,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "jungle",
+            "description": "Abundant with life, this wet planet is covered in deep oceans, thick forests, and tall grasses."
+        },
+        "expireDateTime": null
+    },
+    {
         "planetIndex": 158,
         "name": "Choepessa IV",
         "faction": "Automatons",
-        "players": 1116,
-        "health": 449715,
+        "players": 1608,
+        "health": 450974,
         "maxHealth": 1000000,
-        "percentage": 55.0285,
+        "percentage": 54.9026,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -64,29 +48,13 @@
         "expireDateTime": null
     },
     {
-        "planetIndex": 156,
-        "name": "Charbal-VII",
-        "faction": "Automatons",
-        "players": 563,
-        "health": 474302,
-        "maxHealth": 1000000,
-        "percentage": 52.5698,
-        "defense": false,
-        "majorOrder": false,
-        "biome": {
-            "slug": "toxic",
-            "description": "Dense, toxic fumes from deep within the planet's crust seep out of cracks in the earth and coat the ground in a sickly haze."
-        },
-        "expireDateTime": null
-    },
-    {
         "planetIndex": 203,
         "name": "Menkent",
         "faction": "Automatons",
-        "players": 3771,
-        "health": 656836,
+        "players": 5417,
+        "health": 518132,
         "maxHealth": 1000000,
-        "percentage": 34.3164,
+        "percentage": 48.1868,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -96,29 +64,13 @@
         "expireDateTime": null
     },
     {
-        "planetIndex": 194,
-        "name": "Lesath",
-        "faction": "Automatons",
-        "players": 1235,
-        "health": 729335,
-        "maxHealth": 1000000,
-        "percentage": 27.06649999999999,
-        "defense": false,
-        "majorOrder": false,
-        "biome": {
-            "slug": "icemoss",
-            "description": "Ice and moss-covered rock can be found across most of the surface of this planet."
-        },
-        "expireDateTime": null
-    },
-    {
         "planetIndex": 259,
         "name": "Omicron",
         "faction": "Terminids",
-        "players": 15135,
-        "health": 901486,
+        "players": 36194,
+        "health": 520560,
         "maxHealth": 1000000,
-        "percentage": 9.851399999999998,
+        "percentage": 47.943999999999996,
         "defense": false,
         "majorOrder": false,
         "biome": {
@@ -128,18 +80,66 @@
         "expireDateTime": null
     },
     {
+        "planetIndex": 156,
+        "name": "Charbal-VII",
+        "faction": "Automatons",
+        "players": 430,
+        "health": 596831,
+        "maxHealth": 1000000,
+        "percentage": 40.3169,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "toxic",
+            "description": "Dense, toxic fumes from deep within the planet's crust seep out of cracks in the earth and coat the ground in a sickly haze."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 115,
+        "name": "Penta",
+        "faction": "Automatons",
+        "players": 70592,
+        "health": 861252,
+        "maxHealth": 1000000,
+        "percentage": 13.874799999999993,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "swamp",
+            "description": "The lifeless grey of this planet is interrupted only by the violet flowers that grow from strange, parasitic outcroppings."
+        },
+        "expireDateTime": null
+    },
+    {
         "planetIndex": 34,
         "name": "Hellmire",
         "faction": "Terminids",
-        "players": 13418,
-        "health": 928699,
+        "players": 18433,
+        "health": 931380,
         "maxHealth": 1000000,
-        "percentage": 7.130099999999999,
+        "percentage": 6.861999999999995,
         "defense": false,
         "majorOrder": false,
         "biome": {
             "slug": "desolate",
             "description": "Scorching temperatures, high winds, and low precipitation cause a near-constant cycle of fires to sweep this planet, punctuated by short bursts of lush rebirth between infernos."
+        },
+        "expireDateTime": null
+    },
+    {
+        "planetIndex": 160,
+        "name": "Chort Bay",
+        "faction": "Automatons",
+        "players": 5501,
+        "health": 989181,
+        "maxHealth": 1000000,
+        "percentage": 1.0818999999999903,
+        "defense": false,
+        "majorOrder": false,
+        "biome": {
+            "slug": "toxic",
+            "description": "Dense, toxic fumes from deep within the planet's crust seep out of cracks in the earth and coat the ground in a sickly haze."
         },
         "expireDateTime": null
     }

@@ -20,6 +20,11 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    username: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      unique: true,
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -45,6 +50,21 @@ User.init(
       allowNull: false,
       defaultValue: 0,
     },
+    level: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      defaultValue: 0,
+    },
+    title: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      defaultValue: 'Cadet',
+    },
+    titleFilename: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+
   },
   {
     hooks: {
