@@ -1,3 +1,4 @@
+
 const { DataTypes, Model } = require('sequelize');
 const sequelize = require('../config/connection'); 
 
@@ -26,12 +27,13 @@ Stratagem.init({
         type: DataTypes.STRING,
         allowNull: false
     },
-    
-},
-{
+}, {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
     modelName: 'stratagem',
 });
+
+module.exports = Stratagem;
+

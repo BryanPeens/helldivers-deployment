@@ -40,6 +40,10 @@ User.init(
         len: [8],
       },
     },
+    profile_picture: { 
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
     winCount: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -50,6 +54,7 @@ User.init(
       allowNull: false,
       defaultValue: 0,
     },
+
     level: {
       type: DataTypes.INTEGER,
       allowNull: true,
@@ -64,7 +69,6 @@ User.init(
       type: DataTypes.STRING,
       allowNull: true,
     },
-
   },
   {
     hooks: {

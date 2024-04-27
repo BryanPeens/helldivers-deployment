@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User, Match, Loadout, Strategy, Campaign } = require('../models');
+const { User, Match, Loadout, Campaign } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
@@ -96,41 +96,21 @@ router.get('/matches', async (req, res) => {
     res.status(500).json(err);
   }
 });
-// get strategies
-router.get('/strategies', async (req, res) => {
-  try {
-    const strategies = await Strategy.findAll();
-    res.render('strategies', { strategies });
-  } catch (err) {
-    res.status(500).json(err);
-  }
-});
+
 // get loadouts
 router.get('/loadouts', async (req, res) => {
   try {
-    const loadouts = await Loadout.findAll();
-    res.render('loadouts', { loadouts });
+    res.render('loadouts');
   } catch (err) {
     res.status(500).json(err);
   }
 });
+
 // get campaigns
 router.get('/campaigns', async (req, res) => {
+  console.log("============================================================= Now inside campaigns");
   try {
-    const campaignData = await Campaign.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-    });
-
-    const campaigns = campaignData.map(campaign => campaign.get({ plain: true }));
-    res.render('campaign', { 
-      campaigns,
-      logged_in: req.session.logged_in
-     });
+    res.render('campaign');
   } catch (err) {
     res.status(500).json(err);
   }

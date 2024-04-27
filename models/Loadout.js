@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
+const User = require('./User'); // Import the User model
 
 class Loadout extends Model {}
 
@@ -11,29 +12,18 @@ Loadout.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    stratagems_id: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
-      type: DataTypes.TEXT,
+    // Define user_id as a foreign key referencing the id field of the User model
+    user_id: {
+      type: DataTypes.INTEGER,
       allowNull: false,
-    },
-    weapons: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    armor: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    stratagems: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    boosters: {
-      type: DataTypes.STRING,
-      allowNull: false,
+      references: {
+        model: User,
+        key: 'id',
+      },
     },
   },
   {

@@ -12,6 +12,25 @@
                 <p class="biome_desc">Details: {{c.biomedescription}}</p>
             </div><!-- Add any additional match details here -->
         </ul>
+
+    <ul>
+        {{#each campaigns as |c| }}
+            <li>
+                <p>Name: {{c.name}}</p>
+                <p>Planet Index: {{c.planetIndex}}</p>
+                <p>Faction: {{c.faction}}</p>
+                <p>Players: {{c.players}}</p>
+                <p>Health: {{c.health}}</p>
+                <p>Max Health: {{c.maxHealth}}</p>
+                <p>Percentage: {{c.percentage}}</p>
+                <p>Defense: {{c.defense}}</p>
+                <p>Major Order: {{c.majorOrder}}</p>
+                <p>Biome: {{c.biome}}</p>
+                <p>Biome Description: {{c.biomedescription}}</p>
+                <!-- Add any additional campaign details here -->
+            </li>
+     </ul>
+
         {{/each}}
     </div>
 </div>
