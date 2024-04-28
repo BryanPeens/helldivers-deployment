@@ -1,82 +1,116 @@
 [
     {
-        "name": "anti-material-rifle",
+        "name": "anti material rifle",
         "type": "Support Weapon",
         "description": "The Anti-Materiel Rifle is the ultimate precision instrument for dealing with those big, bad enemies that think they're invincible. This beast of a sniper rifle is your solution when you need to reach out and touch someone - hard. Imagine the scenario: you're face-to-face with a towering Automaton Hulk, its armored plates gleaming with menace. With the Anti-Materiel Rifle in hand, you take aim, squeeze the trigger, and watch as two shots are all it takes to dismantle that mechanical monstrosity. But here's the kicker - this ain't your granddaddy's hunting rifle. The Anti-Materiel Rifle can only be aimed down sights, meaning you'll need a steady hand and a keen eye to make every shot count. Lucky for you, this baby comes equipped with multiple zoom levels, so you can pick off targets from afar with surgical precision. And speaking of precision, here's a pro tip: stay low and steady to maximize stability and reduce recoil. Whether you're crouched behind cover or prone in the dirt, taking the time to line up your shot will ensure that each round finds its mark with deadly accuracy. So, soldier, when the chips are down and the Automatons are closing in, trust in the power of the Anti-Materiel Rifle to deliver justice from a distance. With its unmatched stopping power and pinpoint accuracy, liberty is just a well-placed shot away.",
         "filename": "anti-material-rifle.svg"
     },
     {
-        "name": "anti-personnel-minefield",
+        "name": "anti-personnel minefield",
         "type": "Engineering Bay",
         "description": "The EAT-17 Expandable Anti-Tank is a single-use weapon specially designed to wreak havoc on vehicle armor targets. When facing formidable armored foes, the EAT-17 Expandable Anti-Tank becomes your ultimate ally. The Stratagem delivers two rocket launchers, each capable of delivering a devastating blow, this weapon is designed to tear through the toughest of armor with ease. But here's the catch - the EAT-17 is a one-shot wonder. Once you've unleashed its payload, the launcher is discarded, so make every shot count. Whether you're facing off against hulking Terminids or menacing Automatons, the EAT-17 is your ticket to leveling the playing field and coming out on top.",
         "filename": "anti-personnel-minefield.svg"
     },
     {
-        "name": "arc-thrower",
+        "name": "arc thrower",
+        "type": "Engineering Bay",
+        "description": "This potent tool charges up to unleash bolts of crackling electricity, capable of arcing between multiple targets with devastating effect. Remarkably, the Arc Thrower's inexhaustible energy source ensures that it can be fired infinitely, delivering relentless punishment to our enemies without the need for traditional ammunition. However, wielders must exercise caution when deploying the Arc Thrower in close proximity to comrades, as its indiscriminate discharge may inadvertently harm nearby teammates.",
         "filename": "arc-thrower.svg"
     },
     {
-        "name": "autocannon-sentry",
+        "name": "autocannon sentry",
+        "type": "Robotics Workshop",
+        "description": "Behold the Autocannon Sentry, a sentinel of thunderous might, whose rapid-fire barrage paints the skies with trails of explosive light. In the crucible of battle, it stands as a beacon of defiance, its fiery salvoes heralding the triumph of liberty's alliance. With each resounding boom, it shatters the chains of oppression, carving pathways to freedom with relentless aggression. In its relentless fury, armored titans tremble and falter, as torrents of explosive wrath rend their defenses asunder. Yet not only the mighty fall before its thunderous call, but also the hordes of tyranny, scattered and cleft by its explosive ballet. Thus, amidst the chaos of war, the Autocannon Sentry reigns supreme, a testament to the indomitable spirit of those who dare to dream. With each detonation, it sings the anthem of freedom's ascent, forging a path to victory where democracy's light shines ever resplendent.",
         "filename": "autocannon-sentry.svg"
     },
     {
-        "name": "ballistic-shield-backpack",
+        "name": "ballistic shield backpack",
+        "type": "Engineering Bay",
+        "description": "This compact backpack, when wielded in one hand, transforms into a sturdy ballistic shield capable of withstanding the onslaught of small arms fire with ease. As Helldivers advance into the heart of enemy territory, the Ballistic Shield Backpack stands as a steadfast bulwark against tyranny, providing invaluable protection to those who dare to challenge the forces of oppression.",
         "filename": "ballistic-shield-backpack.svg"
     },
     {
         "name": "eagle-110mm-rocket-pods",
+        "type": "Hangar",
+        "description": "The Eagle 110mm Rocket Pods unleash a relentless barrage of explosive rockets, raining destruction upon the largest target near the stratagem beacon. This deadly payload seeks out its target with unerring accuracy, striking with devastating force and dealing massive amounts of damage to even the toughest adversaries. With each rocket finding its mark, the Eagle 110mm Rocket Pods leave a trail of devastation in their wake, decimating enemy armor and turning the tide of battle in our favor. Whether it's a towering behemoth or a heavily fortified position, no foe can withstand the onslaught of firepower unleashed by these potent munitions.",
         "filename": "eagle-110mm-rocket-pods.svg"
     },
     {
-        "name": "eagle-500kg-bomb",
+        "name": "eagle 500kg bomb",
+        "type": "Hangar", 
+        "description": "The Eagle 500kg Bomb is a weapon of unparalleled devastation, a titanic force of destruction that strikes fear into the hearts of our enemies and leaves the battlefield scorched and smoldering in its wake. When called upon, this behemoth of annihilation descends upon the battlefield with the weight of a thousand thunderclaps, heralding its arrival with a deafening roar that echoes across the land. As the bomb hurtles towards its target, time seems to slow, every second stretching into an eternity as anticipation builds and tension mounts. Then, with a blinding flash of light and an earth-shattering explosion, the bomb detonates, unleashing a cataclysmic wave of destruction that engulfs everything in its path. The shockwave ripples outward, tearing through the earth and rending the very fabric of reality asunder. Buildings crumble like sandcastles in a hurricane, reduced to rubble and dust in the blink of an eye. Vehicles are tossed aside like toys, their twisted wreckage scattered across the landscape like discarded playthings. Those unfortunate enough to be caught within the blast radius are subjected to a maelstrom of destruction unlike anything they've ever experienced. The intense heat sears flesh from bone, leaving nothing but charred husks in its wake. The force of the explosion hurls bodies through the air like rag dolls, their screams lost amidst the cacophony of destruction. As the dust settles and the smoke clears, the true extent of the devastation becomes apparent. The once-vibrant battlefield lies in ruins, transformed into a desolate wasteland by the awesome power of the Eagle 500kg Bomb. It serves as a stark reminder of the consequences of war, a testament to the destructive potential of Super Earth's most lethal creations. With this bomb in our arsenal, victory is assured - but at what cost? The toll of its devastation weighs heavy on the hearts of those who witness its power, a grim reminder of the sacrifices made in the name of liberty and justice. Yet, in the crucible of war, such sacrifices are necessary if we are to emerge victorious against the forces of tyranny and oppression.",
         "filename": "eagle-500kg-bomb.svg"
     },
     {
-        "name": "eagle-airstrike",
+        "name": "eagle airstrike",
+        "type": "Hangar",
+        "description": "A the wrath of democracy unleashed upon the battlefield - a relentless barrage of bombs creating a non-targeted carpet of explosions, raining freedom and liberty upon our enemies with indiscriminate ferocity. When called, the strike will be perpendicular from the direction you were facing when thrown, blanketing the area in chaos and devastation, all in the name of spreading democracy. The Eagle can unleash this devastating airstrike twice before it needs to reload its arsenal back at base.",
         "filename": "eagle-airstrike.svg"
     },
     {
-        "name": "eagle-cluster-bomb",
+        "name": "eagle cluster bomb",
+        "type": "Hangar",
+        "description": "A targeted air strike designed to rain down a barrage of explosive projectiles, clearing smaller targets with ruthless efficiency. While it may not have the power to level buildings, it excels at decimating enemy forces and turning the tide of battle in our favor. When called, the strike will be perpendicular from the direction you were facing when thrown, saturating the area with a deadly rain of bombs. The Eagle Cluster Bomb isn't a one-trick pony. It can be deployed a total of four times before it needs to reload its payload back at base, giving you ample opportunities to unleash devastation upon our enemies and pave the way for victory.",
         "filename": "eagle-cluster-bomb.svg"
     },
     {
-        "name": "eagle-napalm-airstrike",
+        "name": "eagle napalm airstrike",
+        "type": "Hangar",
+        "description": "A blaze of glory descending from the heavens - a relentless barrage of napalm bombs creating a wall of fire that will stop the enemy dead in their tracks. When called, the strike will be perpendicular from the direction you were facing when thrown, engulfing the battlefield in a searing inferno of destruction. It can be unleashed twice before it needs to reload its fiery payload back at base. A wall of fire erupts from the ground, consuming everything in its path with relentless fury. Bugs, Automatons, and any other enemies foolish enough to stand against us are engulfed in flames, their advance halted by the searing heat of the Eagle Napalm Strike.",
         "filename": "eagle-napalm-airstrike.svg"
     },
     {
-        "name": "eagle-rearm",
+        "name": "eagle rearm",
+        "type": "Hangar",
+        "description": "",
         "filename": "eagle-rearm.svg"
     },
     {
-        "name": "eagle-smoke-strike",
+        "name": "eagle smoke astrike",
+        "type": "Hangar",
+        "description": "The Eagle Smoke Strike unleashes a barrage of smoke grenades, enveloping the battlefield in a thick screen of smoke to obscure enemy vision and disrupt their plans. When called, the strike blankets the area with a haze of confusion, creating chaos among our adversaries and giving us the upper hand in combat. When the enemy advances and the odds seem stacked against us, we call upon the power of smoke and mirrors to turn the tide in our favor. A literal fog of war.",
         "filename": "eagle-smoke-strike.svg"
     },
     {
-        "name": "eagle-strafing-run",
+        "name": "eagle strafing run",
+        "type": "Hangar",
+        "description": "The Eagle Strafing Run is like a lightning bolt from the sky - a rapid-fire strafing run that clears small targets with surgical precision, delivered almost instantly to the heart of the battlefield. When called, the strike will start from the beacon and unleash a torrent of destruction away from the direction you were facing when it was thrown. The Eagle can perform this devastating strafing run not just once, not twice, but three times before it needs to reload its bullets back at base. That's three opportunities to rain liberty and democracy upon our enemies below. A streak of fire blazing across the sky, followed by a deafening roar as the Eagle swoops in to rain death upon our enemies below. Whether it's bugs, Automatons, or anything else foolish enough to stand in our way, the Eagle Strafing Run makes short work of them all, leaving nothing but smoking craters in its wake. Don't hesitate to call in the Eagle and watch as the enemy is torn apart by a hail of bullets and explosions.",
         "filename": "eagle-strafing-run.svg"
     },
     {
-        "name": "ems-mortar-sentry",
+        "name": "ems mortar sentry",
+        "type": "Robotics Workshop",
+        "description": "An electrifying turret armed with static field generators that disrupt enemy advances with the fervor of democracy itself. This mighty guardian stands as a bastion of liberty, its pulsating fields of electromagnetic fury casting a net of confusion upon the enemy ranks, leaving tyranny quaking in its boots. With each thunderous pulse, the EMS Mortar Sentry proclaims the triumph of freedom's champions, striking fear into the hearts of all who dare oppose the righteous march of democracy.",
         "filename": "ems-mortar-sentry.svg"
     },
     {
-        "name": "expendable-anti-tank",
+        "name": "expendable anti-tank",
+        "type": "Support Weapon",
+        "description": "The EAT-17 Expandable Anti-Tank is a single-use weapon specially designed to wreak havoc on vehicle armor targets. When facing formidable armored foes, the EAT-17 Expandable Anti-Tank becomes your ultimate ally. The Stratagem delivers two rocket launchers, each capable of delivering a devastating blow, this weapon is designed to tear through the toughest of armor with ease. But here's the catch - the EAT-17 is a one-shot wonder. Once you've unleashed its payload, the launcher is discarded, so make every shot count. Whether you're facing off against hulking Terminids or menacing Automatons, the EAT-17 is your ticket to leveling the playing field and coming out on top.",
         "filename": "expendable-anti-tank.svg"
     },
     {
         "name": "flamethrower",
+        "type": "Support Weapon",
+        "description": "The FLAM-40 Flamethrower is a weapon of fiery destruction, perfect for scorching enemies at close range. With its incendiary power, this weapon doesn't just burn targets - it turns them into crispy critters faster than you can say extra crispy. But beware, soldier, the FLAM-40 doesn't discriminate - it'll ignite anything and everything in its path, including terrain and, yes, even your flammable teammates. So, wield this weapon with caution and keep your distance from anything you'd rather not see engulfed in flames. So, when the flames of democracy meet the inferno of the FLAM-40 Flamethrower, even the most ardent enemies of liberty will find themselves roasted to a crisp. Remember, nothing says freedom like a well-cooked bug!",
         "filename": "flamethrower.svg"
     },
     {
-        "name": "gatling-sentry",
+        "name": "gatling sentry",
+        "type": "Robotics Workshop",
+        "description": "Prepare for a symphony of destruction with the Gatling Sentry, an awe-inspiring addition to our arsenal that unleashes a relentless storm of bullets upon our foes. This fearsome turret stands as a formidable bulwark against the forces of tyranny, its spinning barrels serving as a testament to the unyielding resolve of Helldivers in the pursuit of liberty. With its unparalleled rate of fire and unerring accuracy, the Gatling Sentry sweeps aside all who oppose the march of democracy, leaving a trail of destruction in its wake.",
         "filename": "gatling-sentry.svg"
     },
     {
-        "name": "grenade-launcher",
+        "name": "grenade launcher",
+        "type": "Support Weapon",
+        "description": "Prepare for a symphony of destruction with the Gatling Sentry, an awe-inspiring addition to our arsenal that unleashes a relentless storm of bullets upon our foes. This fearsome turret stands as a formidable bulwark against the forces of tyranny, its spinning barrels serving as a testament to the unyielding resolve of Helldivers in the pursuit of liberty. With its unparalleled rate of fire and unerring accuracy, the Gatling Sentry sweeps aside all who oppose the march of democracy, leaving a trail of destruction in its wake.",
         "filename": "grenade-launcher.svg"
     },
     {
-        "name": "guard-dog-rover",
+        "name": "guard dog rover",
+        "type": "Robotics Workshop",
+        "description": "The Guard Dog Rover is a versatile and loyal companion, capable of providing invaluable support to Helldivers in the heat of battle. This robotic ally is equipped with a powerful machine gun, allowing it to lay down suppressive fire and eliminate threats with ruthless efficiency. In addition to its formidable offensive capabilities, the Guard Dog Rover is also equipped with a shield generator, providing protection to nearby allies and enhancing their survivability on the battlefield. With its combination of firepower and defensive capabilities, the Guard Dog Rover is a force to be reckoned with, a stalwart defender of liberty and justice in the face of overwhelming odds.",
         "filename": "guard-dog-rover.svg"
     },
     {
