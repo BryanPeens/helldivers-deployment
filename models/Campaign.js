@@ -60,8 +60,8 @@ Campaign.init({
     }
 }, {
     sequelize,
-    modelName: 'Campaign',
-    tableName: 'campaigns'
+    freezeTableName:true,
+    modelName: 'campaign',
 });
 
 module.exports = Campaign;

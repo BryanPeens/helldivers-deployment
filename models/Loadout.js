@@ -21,15 +21,16 @@ Loadout.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: User,
+        model: 'user',
         key: 'id',
       },
     },
   },
   {
     sequelize,
+    freezeTableName:true,
     timestamps: true,
-    modelName: 'Loadout',
+    modelName: 'loadout',
   }
 );
 

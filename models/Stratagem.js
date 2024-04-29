@@ -32,8 +32,7 @@ Stratagem.init({
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'Stratagem',
-    tableName: 'stratagems',
+    modelName: 'stratagem',
 });
 
 module.exports = Stratagem;

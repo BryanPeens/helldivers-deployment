@@ -12,58 +12,44 @@
         href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/match_styles.css">
-    <link rel="stylesheet" href="/css/loadout_styles.css">
-    <script src="/js/match_script.js"></script>
-    <script src="/js/loadout_script.js"></script>
+    <link rel="stylesheet" href="/css/jass.css">
+    <link rel="stylesheet" href="/css/style.css">    
+    {{!-- <link rel="stylesheet" href="/css/match_styles.css"> --}}
 </head>
 
-<body class="diver_background">
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+<body class="diver_background flex">
+    <div class="flex-column justify-space-around">
+        <header class="display-flex justify-space-between align-center p-2 bg-secondary">
+            <h1>
                 <a class="navbar-brand" href="/">HELLDIVERS DEPLOYMENT</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/matches">Matches</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/stratagems">Strategems</a>
-                        </li>
-                        <li class="nav-item">
+            </h1>
+            <nav class="display-flex gap-2 text-info text-lg">
+                <a class="nav-link" href="/matches">Matches</a>
+                {{!-- <a class="nav-link" href="/stratagems">Strategems</a> --}}
+                {{!-- <a class="nav-link" href="/loadouts">Loadouts</a> --}}
+                <a class="nav-link" href="/campaigns">Campaigns</a>
+                <!-- Conditionally render login or logout links -->
+                {{#if logged_in}}
+                <a href="/profile">profile</a> |
+                <button class="no-button" id="logout">logout</button>
+                {{else}}
+                <a href="/login">login</a>
+                {{/if}}
+            </nav>
+        </header>
+        <main class="container container-fluid mt-5 ">
+            <!-- Render the sub layout -->
+            {{{ body }}}
+        </main>
+        <footer>
 
-                            <a class="nav-link" href="/loadouts">Loadouts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/campaigns">Campaigns</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
-                        {{#unless logged_in}}
-                        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
-                        {{else}}
-                        <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
-                        {{/unless}}
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+        </footer>
+    </div>
 
-    <main>
-        {{{body}}}
-    </main>
-
-    <footer>
-        <!-- Footer content -->
-    </footer>
+    <!-- Render script for logged in users only -->
+    {{#if logged_in}}
+    <script src="/js/logout.js"></script>
+    {{/if}}
 </body>
 
 </html>
