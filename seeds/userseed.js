@@ -5,12 +5,11 @@ const userData = require('./userData.json');
 
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
-
+  console.log("================================================");
   console.log(userData);
 
 const cleanuserData = userData.map((user) => {  
   return {
-    
     name: user.name,
     username: user.username,
     email: user.email,

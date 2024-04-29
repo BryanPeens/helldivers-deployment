@@ -20,11 +20,6 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    username: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
-    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -39,35 +34,6 @@ User.init(
       validate: {
         len: [8],
       },
-    },
-    profile_picture: { 
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
-    winCount: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      defaultValue: 0,
-    },
-    lossCount: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      defaultValue: 0,
-    },
-
-    level: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      defaultValue: 0,
-    },
-    title: {
-      type: DataTypes.STRING,
-      allowNull: true,
-      defaultValue: 'Cadet',
-    },
-    titleFilename: {
-      type: DataTypes.STRING,
-      allowNull: true,
     },
   },
   {

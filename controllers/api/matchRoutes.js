@@ -1,22 +1,24 @@
 const router = require('express').Router();
-const { Match, User } = require('../../models');
+const { Project, User, Match } = require('../../models');
+const withAuth = require('../../utils/auth');
 
-router.get('/', async (req, res) => {
+// Use withAuth middleware to prevent access to route
+router.get('/matches', withAuth, async (req, res) => {
   try {
-    const matchData = await Match.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+      include: [{ 
+        model: Project,
+        include: [{ model: User, attributes: ['name'] }]
+      }],
     });
 
-    const matches = matchData.map(match => match.get({ plain: true }));
+    const projects = userData.Projects.map(project => project.get({ plain: true }));
 
     res.render('matches', {
-      matches,
-      logged_in: req.session.logged_in
+      projects,
+      logged_in: true
     });
   } catch (err) {
     res.status(500).json(err);
