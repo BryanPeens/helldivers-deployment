@@ -2,8 +2,8 @@
 <div class="container">
     <h1>Stratagems</h1>
     <ul>
-        {{#each stratagem}}
-            <li>{{this.name}} - {{this.description}}</li>
+        {{#each stratagem.type as |s|}}
+            <li>{{s.name}} - {{s.description}}</li>
             <!-- Add any additional strategy details here -->
         {{/each}}
     </ul>
