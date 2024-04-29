@@ -109,16 +109,20 @@
     },
     {
         "name": "guard dog rover",
-        "type": "Robotics Workshop",
+        "type": "Engineering Bay",
         "description": "The Guard Dog Rover is a versatile and loyal companion, capable of providing invaluable support to Helldivers in the heat of battle. This robotic ally is equipped with a powerful machine gun, allowing it to lay down suppressive fire and eliminate threats with ruthless efficiency. In addition to its formidable offensive capabilities, the Guard Dog Rover is also equipped with a shield generator, providing protection to nearby allies and enhancing their survivability on the battlefield. With its combination of firepower and defensive capabilities, the Guard Dog Rover is a force to be reckoned with, a stalwart defender of liberty and justice in the face of overwhelming odds.",
         "filename": "guard-dog-rover.svg"
     },
     {
-        "name": "guard-dog",
+        "name": "guard dog",
+        "type": "Robotics Workshop",
+        "description": "This relentless companion serves as a steadfast ally on the battlefield, its keen senses and unwavering resolve ensuring that democracy's champions remain protected from every threat. With its 360-degree coverage and formidable firepower, the Guard Dog stands as a vigilant defender of liberty, tirelessly engaging enemy forces and securing victory for the cause of freedom. As it bravely patrols the front lines, the Guard Dog epitomizes the indomitable spirit of Helldivers, inspiring confidence in our ranks and striking fear into the hearts of our adversaries.",
         "filename": "guard-dog.svg"
     },
     {
-        "name": "heavy-machine-gun",
+        "name": "heavy machine gun",
+        "type": "Support Weapon",
+        "description": "The MG-206 Heavy Machine Gun, a beast of a weapon that'll have you feeling like you're wrestling a bull on steroids. This bad boy packs a punch that'll make even the toughest bugs quake in their exoskeletons. But beware, handling this monster ain't for the faint of heart. With recoil that'll send you flying faster than a rocket launch, you'll need arms of steel and nerves of titanium to keep this baby under control. Get ready to unleash a storm of lead like never before.",
         "filename": "heavy-machine-gun.svg"
     },
     {
@@ -126,55 +130,81 @@
         "filename": "hellbomb.svg"
     },
     {
-        "name": "hmg-emplacement",
+        "name": "hmg emplacement",
+        "type": "Bridge",
+        "description": "A formidable fortification that transforms any battlefield into a bastion of liberty. Manned by courageous Helldivers, this turret delivers unparalleled firepower against lightly armored targets, serving as a steadfast guardian against the encroaching forces of tyranny. Though slow to turn, its strategic placement is paramount, ensuring maximum coverage and efficacy on the front lines of democracy's defense. With the HMG Emplacement at your disposal, you become the stalwart sentinel of freedom, standing firm against all who dare to oppose our righteous cause.",
         "filename": "hmg-emplacement.svg"
     },
     {
-        "name": "incendiary-mines",
+        "name": "incendiary mines",
+        "type": "Engineering Bay",
+        "description": "This stratagem deploys a minefield saturated with incendiary devices, poised to ignite both terrain and targets alike when triggered by unsuspecting adversaries. As the flames of liberty engulf our enemies, Helldivers stand as guardians of democracy, harnessing the power of fire to repel the forces of tyranny. Similar to its explosive counterpart, the Incendiary Mines serve as a formidable deterrent against enemy incursions, creating a perilous obstacle for those who dare to challenge our righteous cause.",
         "filename": "incendiary-mines.svg"
     },
     {
-        "name": "jump-pack",
+        "name": "jump pack",
+        "type": "Hangar",
+        "description": "The Jump Pack propels you to great heights with each leap, allowing you to soar through the air like a majestic eagle. With its power, you can leap entire stories high, gaining advantage over enemies or reaching strategic positions on the battlefield. However, the Jump Pack requires a fairly long recharge between jumps, making timing and strategy crucial for its effective use. Whether you need to evade enemies or engage them from unexpected angles, the Jump Pack offers freedom and flexibility in combat. Imagine activating the Jump Pack as the ground trembles beneath your feet, launching you into the air with a powerful leap. Bugs and Automatons alike are caught off guard as you ascend overhead, ready to turn the tide of battle from above. With the Jump Pack, the sky's the limit - quite literally.",
         "filename": "jump-pack.svg"
     },
     {
-        "name": "laser-cannon",
+        "name": "laser cannon",
+        "type": "Engineering Bay",
+        "description": "Presenting the Laser Cannon, a marvel of cutting-edge technology and the pinnacle of Helldiver armament. This formidable cannon harnesses upscaled, weaponized laser technology to unleash a relentless torrent of destructive energy upon our adversaries. Its heavy, continuous laser beam cuts through enemy ranks with surgical precision, leaving naught but scorched earth in its wake. Unlike conventional weapons, the Laser Cannon consumes no traditional ammunition, instead relying on a delicate balance of power and heat management. To maintain optimal performance, Helldivers must load emergency heat dump canisters into the cannon, ensuring a continuous barrage of laser fire.",
         "filename": "laser-cannon.svg"
     },
     {
-        "name": "machine-gun-sentry",
+        "name": "machine gun sentry",
+        "type": "Robotics Workshop",
+        "description": "This imposing turret stands as a stalwart guardian, tirelessly scanning the battlefield for any sign of opposition and unleashing a relentless barrage of firepower upon those who dare to challenge the cause of liberty. With its unmatched precision and unwavering determination, the Machine Gun Sentry serves as a steadfast sentinel, safeguarding strategic locations and ensuring the continued advance of democracy's champions.",
         "filename": "machine-gun-sentry.svg"
     },
     {
-        "name": "machine-gun",
+        "name": "machine gun",
+        "type":"Support Weapon",
+        "description": "Behold, soldier, the mighty MG-43 Machine Gun - a weapon fit for heroes and hotheads alike. This trusty companion is your ticket to glory on the battlefield, but beware, for with great power comes great responsibility (and a hefty kickback). Now, let's talk tactics. The MG-43 is your go-to for those oh crap moments when you're faced with bug breach hordes or pesky large enemies. But here's the catch - ammo is scarce, so it's like momma always said: Use it wisely, or you'll be walking home. When it comes to accuracy and control, remember this mantra: Stationary is the new black. Plant your feet, soldier, and watch as your shots hit the mark with precision. And if you really want to show those bugs who's boss, get low - crouch for stability or go full commando and hit the dirt for maximum accuracy. Now, about armor penetration - the MG-43 may not cut through armor like a hot knife through butter, but it'll sure give those enemies a run for their money. So when you see a tough bug or a sturdy automaton, don't be afraid to lay down some suppressive fire and watch those bullets find their mark.",
         "filename": "machine-gun.svg"
     },
     {
-        "name": "mortar-sentry",
+        "name": "mortar sentry",
+        "type": "Robotics Workshop",
+        "description": "This formidable turret stands as a testament to the ingenuity of Helldivers, its explosive shells serving as harbingers of liberty's triumph over tyranny. With its unparalleled range and devastating firepower, the Mortar Sentry strikes fear into the hearts of our enemies, decimating their ranks and clearing the path for democracy's advance.",
         "filename": "mortar-sentry.svg"
     },
     {
-        "name": "orbital-120mm-he-barrage",
+        "name": "orbital 120mm he barrage", 
+        "type": "Orbital Cannons",
+        "description": "The Orbital 120mm HE Barrage is like a symphony of destruction for the discerning Helldiver - a precision artillery salvo that transforms the battlefield into a chaotic dance of devastation and mayhem. With bombs the size of small cars raining down from the heavens, this Strategem is perfect for dispersing concentrated enemy units and turning the tide of battle in our favor. But don't expect surgical precision from this bad boy - oh no! These bombs land in random locations, creating a deadly game of chance where the only guaranteed winner is freedom itself. Sure, it may not be the most accurate airstrike in the book, but when you're dealing with a large area, who needs pinpoint accuracy anyway? Whether you're looking to thin out enemy ranks before a big push or simply want to make a statement, the Orbital 120mm HE Barrage is your ticket to turning the battlefield into a warzone worthy of the history books. With its explosive power and the might of the Destroyer at your command, victory is just a bomb drop away. Stratagem Practice",
         "filename": "orbital-120mm-he-barrage.svg"
     },
     {
-        "name": "orbital-380mm-he-barrage",
+        "name": "orbital 380mm he barrage",
+        "type":"Orbital Cannons",
+        "description": "The 380mm HE Barrage is the big brother of destruction, a prolonged onslaught of devastation that blankets the battlefield in chaos and carnage. With bombs the size of small houses raining down from the heavens, this Strategem is not for the faint of heart - when one of these bad boys is pulled out, you'd better take cover or kiss your behind goodbye. Just when you thought things couldn't get any crazier, along comes the 380mm HE Barrage, wreaking extended havoc over a larger area than your average battleground. Communication with teammates is advised - not because it's particularly helpful, but because it's always good to have someone to share your impending doom with. Whether you're looking to clear out a heavily fortified position or just want to see the world burn (metaphorically speaking, of course), the 380mm HE Barrage is your one-way ticket to chaos and destruction. With its colossal explosive power and the might of the Destroyer at your command, victory is just a bomb drop away - assuming there's anything left standing to claim it.",
         "filename": "orbital-380mm-he-barrage.svg"
     },
     {
-        "name": "orbital-airburst-strike",
+        "name": "orbital airburst strike",
+        "type": "Orbital Cannons",
+        "description": "The Orbital Airburst Strike is like nature's own fireworks display - except instead of pretty lights, it rains down a deadly shower of shrapnel from above, turning enemy formations into chaos faster than you can say duck and cover! This projectile explodes while airborne, creating a deadly rain of shrapnel that's perfect for raining down death and destruction on our enemies below. While the Orbital Airburst Strike may not be effective against heavy armor, it's the perfect tool for dealing with those pesky lighter enemies that just won't take a hint. Whether you're facing off against swarms of bugs or waves of Automatons, this Strategem is your go-to choice for thinning out the herd and making the battlefield safe in the name of democracy.",
         "filename": "orbital-airburst-strike.svg"
     },
     {
-        "name": "orbital-ems-strike",
+        "name": "orbital ems strike",
+        "type": "Bridge",
+        "description": "A marvel of compliance engineering designed to recalibrate enemy behavior with a single, electrifying pulse. This projectile, imbued with the power to temporarily stun all targets within its strike radius, serves as a potent reminder of the consequences of defiance against the forces of liberty and democracy. As it arcs through the heavens and descends upon the battlefield, it delivers a shockwave of enlightenment that leaves our adversaries momentarily incapacitated, their wills bent to our cause. With the Orbital EMS Strike at your disposal, you wield not just a weapon, but a tool for shaping the very fabric of the battlefield itself.",
         "filename": "orbital-ems-strike.svg"
     },
     {
-        "name": "orbital-gas-strike",
+        "name": "orbital gas strike",
+        "type": "Bridge",
+        "description": "A noxious gift from the heavens that unleashes a swirling maelstrom of corrosive gas upon the battlefield. This insidious cloud spares no foe, searing through both organic and robotic lifeforms with equal contempt. As it engulfs the battlefield, it leaves naught but devastation in its wake, choking our enemies and dissolving their defenses with unrelenting efficiency. With the Orbital Gas Strike at your command, you wield a weapon of unparalleled potency, capable of turning the tide of battle with a single toxic breath.",
         "filename": "orbital-gas-strike.svg"
     },
     {
-        "name": "orbital-gattling-barrage",
+        "name": "orbital gattling barrage",
+        "type": "Orbital Cannons",
+        "description": "The Orbital Gatling Barrage is the stuff of nightmares for our enemies below - a relentless storm of high explosive rounds raining down from the heavens like the hammer of justice itself. Fired from the Destroyer's high-speed rotary autocannons, this barrage turns enemy formations into chaos and rubble in the blink of an eye. But don't be fooled by the size of these rounds - they may not be rockets, but they pack a punch that'll make the enemy think twice about crossing our path. These babies are like big bullets of freedom, tearing through enemy ranks with ease and leaving nothing but destruction in their wake.", 
         "filename": "orbital-gattling-barrage.svg"
     },
     {
@@ -182,27 +212,39 @@
         "filename": "orbital-illumination-flare.svg"
     },
     {
-        "name": "orbital-laser",
+        "name": "orbital laser",
+        "type": "Orbital Cannons",
+        "description": "The Orbital Laser is the Destroyer's answer to all our problems - a blazing beam of destruction that sweeps over the designated area like the fiery wrath of the gods, vaporizing everything in its path with ruthless efficiency. This isn't your run-of-the-mill laser pointer, folks - this is a laser cannon so powerful, it makes the sun jealous! Anything caught in its path is destined to become a crispy critter faster than you can say well done.",
         "filename": "orbital-laser.svg"
     },
     {
-        "name": "orbital-precision-strike",
+        "name": "orbital precision strike",
+        "type": "Bridge",
+        "description": "Marvel at the Orbital Precision Strike, the illustrious initiation bestowed upon fledgling Helldivers embarking on their gallant escapades. With a singular shot from the venerable 'ATLAS' cannon, unleashed from the ethereal confines of the mighty Destroyer, this stratagem instills dread in the hearts of our adversaries and proclaims our supremacy with resolute vigor. From the inaugural unleashing of its wrath upon the battlefield, you'll grasp the weighty burden placed upon you as a Helldiver, and the pivotal role you occupy in safeguarding the virtues of liberty and democracy across the cosmos.",
         "filename": "orbital-precision-strike.svg"
     },
     {
-        "name": "orbital-railcannon-strike",
+        "name": "orbital railcannon strike",
+        "type": "Orbital Cannons",
+        "description": "The Orbital Railcannon Strike is like a sniper's dream come true - a high-velocity railcannon round fired from the heavens, zeroing in on the largest target in close proximity to the beacon and obliterating it in one fell swoop. It's like playing a game of cosmic whack-a-mole, except instead of moles, you're squashing enemy forces with extreme prejudice. Targeting is automatic, meaning you don't have to lift a finger - just plant the beacon and let the railcannon do the rest. With the power of the railcannon at your command, victory is assured - or at least, very, very satisfying.",
         "filename": "orbital-railcannon-strike.svg"
     },
     {
-        "name": "orbital-smoke-strike",
+        "name": "orbital smoke strike",
+        "type": "Bridge",
+        "description": "A strategic masterpiece that blankets the battlefield in a dense fog of liberty, shielding our forces from the prying eyes of tyranny. This stratagem conjures a veil of democratic smoke that descends from the heavens, obscuring the vision of our adversaries, including the relentless Automatons, and thwarting their attempts to suppress our pursuit of freedom. With their line of sight compromised, our enemies find themselves ensnared in the smokescreen of liberty, unable to penetrate the righteous resolve of the Helldivers. With the Orbital Smoke Strike at your command, you wield not just a weapon, but a shield of democracy that ensures our victory against the forces of oppression.",
         "filename": "orbital-smoke-strike.svg"
     },
     {
-        "name": "orbital-walking-barrage",
+        "name": "orbital walking barrage",
+        "type": "Orbital Cannons",
+        "description": "The Orbital Walking Barrage is like a relentless giant stomping its way across the battlefield, driving the enemy out of cover with every thunderous step and paving the way for our glorious advance. But instead of feet, it's bombs - big, explosive ones that leave nothing but chaos and destruction in their wake. With the Orbital Walking Barrage on our side, victory is just a series of explosive steps away. So don't just stand there - follow the bombs, advance with confidence, and show the enemy what happens when they try to stand in the way of progress. With the power of destruction at your command, victory is inevitable.",
         "filename": "orbital-walking-barrage.svg"
     },
     {
-        "name": "patriot-exosuit",
+        "name": "patriot exosuit",
+        "type": "Robotics Workshop",
+        "description": "Introducing the latest addition to the Helldivers' arsenal: the Patriot Exosuit. This formidable drivable bipedal mech stands as a beacon of freedom and firepower on the battlefield. With its sleek design and cutting-edge technology, the Patriot Exosuit is a symbol of Super Earth's unwavering resolve against the alien threats that seek to engulf humanity. Equipped with a devastating rocket launcher and a rapid-firing machine gun, this mechanical behemoth brings the heat to any hostile encounter. Whether raining down explosive ordinance from above or laying down suppressive fire against advancing enemies, the Patriot Exosuit is a force to be reckoned with. Pilots will find themselves in the driver's seat of sheer power and versatility, ready to turn the tide of battle in the name of liberty and justice.",
         "filename": "patriot-exosuit.svg"
     },
     {
@@ -210,15 +252,21 @@
         "filename": "prospecting-drill.svg"
     },
     {
-        "name": "quasar-cannon",
+        "name": "quasar cannon",
+        "type":"Engineering Bay",
+        "description": "The LAS-99 Quasar Cannon, the pinnacle of raw firepower at your fingertips. This beast charges up to unleash a spectacular energy burst that'll leave your enemies in awe of your might. But brace yourself, because after unleashing such overwhelming power, this cannon needs a moment to catch its breath. It's not a flaw, it's a testament to its sheer potency.",
         "filename": "quasar-cannon.svg"
     },
     {
         "name": "railgun",
+        "type": "Support Weapon",
+        "description": "The RS-422 Railgun isn't your grandpa's pea shooter - it's a cutting-edge piece of experimental tech that's so hot, it makes the sun jealous. This baby is all about one thing and one thing only: blasting through armor like it's going out of style. But hold your horses, soldier - each shot needs a little love and care, so make sure you're cozy with that trigger before you pull it. Remember, precision is key - we're talking about turning enemy armor into modern art here. This bad boy fires a single, supercharged shot at a time, cutting through armor plates like a hot knife through butter. It's like playing a game of pin the tail on the donkey, except the donkey is an enemy tank and the tail is a high-velocity projectile. But wait, there's more! The RS-422 comes with a little something we like to call the unsafe mode. Sure, it's risky business, but who doesn't love a little danger with their morning coffee? Just remember: hold that trigger down for too long and you'll be painting the walls with more than just enemy blood.",
         "filename": "railgun.svg"
     },
     {
-        "name": "recoilless-rifle",
+        "name": "recoilless rifle",
+        "type": "Support Weapon",
+        "description": "Behold, the GR-8 Recoilless Rifle - a weapon so mighty, it'll make even the toughest armored vehicles quake in fear. This bad boy is your ticket to turning enemy armor into scrap metal faster than you can say reload. With its single, devastating rocket, the GR-8 is the ultimate choice for obliterating those pesky big foes on the battlefield. But beware, soldier, reloading this beast is no walk in the park - unless you've got a trusty buddy to lend a hand, of course. Introducing the support backpack - the unsung hero of the GR-8's reload process. While going solo might leave you twiddling your thumbs, having a teammate grab your ammo backpack can turn reloading from a chore into a breeze faster than you can say teamwork. So, when the enemy rolls out the big guns, don't just stand there - grab your GR-8, slap on that support backpack, and show 'em what you're made of. With the power of friendship and a whole lot of rockets, victory is just a blast away.",
         "filename": "recoilless-rifle.svg"
     },
     {
@@ -230,7 +278,9 @@
         "filename": "resupply.svg"
     },
     {
-        "name": "rocket-sentry",
+        "name": "rocket sentry",
+        "type": "Robotics Workshop",
+        "description": "Behold the might of the Rocket Sentry, a formidable automated turret designed to rain destruction upon armored adversaries with relentless precision. This towering guardian stands as a beacon of defiance against tyranny, its guided missiles soaring through the skies to seek out and obliterate the largest of foes. With each thunderous detonation, the Rocket Sentry carves a path of fiery retribution, ensuring that the forces of oppression tremble in the face of democracy's advance.",
         "filename": "rocket-sentry.svg"
     },
     {
@@ -242,11 +292,13 @@
         "filename": "seismic-probe.svg"
     },
     {
-        "name": "shield-generator-pack",
+        "name": "shield generator pack",
+        "type" : "Engineering Bay",
+        "description": "A groundbreaking innovation designed to safeguard Helldivers amidst the chaos of enemy territory. This remarkable device encases the wearer in a protective spherical shield, offering unparalleled defense against the onslaught of high-speed projectiles and enemy assaults. With its formidable protection, Helldivers can confidently navigate through hostile environments, shielded from harm and empowered to confront the forces of tyranny head-on. Although its deployment is temporary, the Shield Generator Pack ensures that Helldivers remain unscathed amidst the relentless barrage of enemy fire, providing a vital lifeline in the heat of battle.",
         "filename": "shield-generator-pack.svg"
     },
     {
-        "name": "shield-generator-relay",
+        "name": "shield generator relay",
         "filename": "shield-generator-relay.svg"
     },
     {
@@ -255,22 +307,30 @@
     },
     {
         "name": "spear",
+        "type": "Support Weapon",
+        "description": "The FAF-14 Spear is the pinnacle of anti-tank warfare, a homing missile that locks onto its target with deadly precision before unleashing its destructive payload. With its auto-lock-on system, this weapon is your best friend when it comes to taking down large and armored enemies, no matter how fast they're moving. The FAF-14 Spear comes equipped with a handy backpack, allowing your trusty teammates to lend a hand and make reloading a breeze. With their support, you'll be ready to lock and load in no time, raining missiles down on your enemies like a force of nature.", 
         "filename": "spear.svg"
     },
     {
         "name": "stalwart",
+        "type": "Support Weapon",
+        "description": "The M-105 Stalwart is a compact and nimble machine gun designed for soldiers who value agility and versatility on the battlefield. Unlike its heavier counterparts, the Stalwart sacrifices raw power for ease of use, making it the perfect choice for those who need to stay mobile in the heat of combat. The Stalwart truly shines in its agility. Unlike other machine guns, the Stalwart allows you to reload on the move, ensuring that you're always ready to keep the pressure on the enemy. And with the ability to adjust the RPM between slower and faster rates, you have the flexibility to adapt your firepower to the situation at hand. While the Stalwart may not pack the same punch as its heavier counterparts, it more than makes up for it with its nimble handling and rapid reloads. Whether you're facing hordes of smaller enemies or need to maintain constant suppression fire, the M-105 Stalwart provides the firepower and agility you need to get the job done.",
         "filename": "stalwart.svg"
     },
     {
-        "name": "super-earth-flag",
+        "name": "super earth flag",
         "filename": "super-earth-flag.svg"
     },
     {
-        "name": "supply-pack",
+        "name": "supply pack",
+        "type": "Engineering Bay",
+        "description": "This essential stratagem deploys supply boxes brimming with precious ammunition, accompanied by a versatile backpack that empowers the user to distribute these vital resources to fellow comrades in arms. Whether resupplying allies or replenishing one's own arsenal, the Supply Pack stands as a beacon of solidarity and resilience on the battlefield. With its capacity for sustained provision, Helldivers wield the power to sustain the fight against tyranny and uphold the sacred values of liberty and democracy.",
         "filename": "supply-pack.svg"
     },
     {
-        "name": "tesla-tower",
+        "name": "tesla tower",
+        "type": "Bridge",
+        "description": "Behold the Tesla Tower, a towering testament to the electrifying power of Helldiver ingenuity and the boundless spirit of democracy. This formidable turret channels the raw energy of liberty itself, unleashing devastating electrical charges at targets in close range, arcing through the air with righteous fury to vanquish our enemies. To safeguard the principles of freedom, Helldivers are advised to adopt a prone position while in proximity of this electrifying marvel, ensuring the safety of their comrades amidst the chaos of battle.",
         "filename": "tesla-tower.svg"
     },
     {
