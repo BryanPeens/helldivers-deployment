@@ -3,8 +3,8 @@ const { Stratagem } = require('../../models');
 
 router.get('/', async (req, res) => {
   try {
-    const strategies = await Strategy.findAll();
-    res.render('stratagems', { strategies });
+    const strategems = await Stratagem.findAll();
+    res.render('stratagems', { strategems });
   } catch (err) {
     res.status(500).json(err);
   }

@@ -107,7 +107,6 @@ router.get("/loadouts", async (req, res) => {
 });
 
 // get campaigns
-// get campaigns
 router.get('/campaigns', async (req, res) => {
   console.log("============================================================= Now inside campaigns");
   try {
