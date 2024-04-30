@@ -32,7 +32,10 @@ The Helldiver's Deployment app is designed to emulate the thrill of playing the 
 ```
 
 ## Features
-- 
+- User can create their own profile and log in to access their load out
+- User can modify their loadout to have 4 separate strategems, a different user name/level/description, and a different profile picture
+- User can access the latest campaign stats and see which planets are currently active with up to date data
+- User can access matchmaking and play against 3 randomly selected other users and have their match stored on the server
 
 ## Setup Instructions
  - To setup the database, in your postgres run ( \i schema.sql ), this will create and seed the database with dummy data.
