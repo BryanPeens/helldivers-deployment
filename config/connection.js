@@ -13,7 +13,7 @@ if (process.env.DB_URL) {
     // process.env.DB_HOST,
     // process.env.DB_PORT,
     {
-      host: 'helldive_db',
+      host: 'localhost',
       dialect: 'postgres'
     }
   );
