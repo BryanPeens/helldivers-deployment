@@ -27,9 +27,12 @@ The Helldiver's Deployment app is designed to emulate the thrill of playing the 
 
 
 ## User Story
-```md
+User story: I want to be able to participate in matches and join other users when playing matches and see if my loadouts bring us victory. 
+Motivation for development: To fight for democracy without the extended hours on the battlefield and to participate on the warfront
+Description:  A battle simulator where you can modify and create loadouts and drop into the battle against the Automatons and Terminids that threaten our very way of life. Through victory or defeat we fight under the same banner, “Super Earth”
 
-```
+
+
 
 ## Features
 - User can create their own profile and log in to access their load out
@@ -46,6 +49,13 @@ The Helldiver's Deployment app is designed to emulate the thrill of playing the 
 - run npm start
 
 ## Demonstration
+![image](https://github.com/BryanPeens/helldivers-deployment/assets/162182740/1a3c01f2-c2c5-4043-8c05-601f5ba3a56a)
+![image](https://github.com/BryanPeens/helldivers-deployment/assets/162182740/4eb98498-778b-4209-a028-1c571c59d826)
+![image](https://github.com/BryanPeens/helldivers-deployment/assets/162182740/2d87504c-423c-4258-82be-e71501b76401)
+![image](https://github.com/BryanPeens/helldivers-deployment/assets/162182740/1565fe01-faef-41af-a6a6-26b37711f4f2)
+
+
+
 
 
 ## Credits
