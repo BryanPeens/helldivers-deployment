@@ -23,6 +23,7 @@ const cleancampaignData = campaignData.map((campaign) => {
     expireDateTime: campaign.expireDateTime
   }
 })
+console.log(cleancampaignData);
 await Campaign.bulkCreate(cleancampaignData, {
     individualHooks: true,
     returning: true,
