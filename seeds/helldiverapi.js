@@ -1,4 +1,4 @@
-sconst fs = require('fs');
+const fs = require('fs');
 const axios = require('axios');
 
 axios.get('https://helldiverstrainingmanual.com/api/v1/war/campaign')
