@@ -27,10 +27,10 @@ The Helldiver's Deployment app is designed to emulate the thrill of playing the 
 
 
 ## User Story
-User story: I want to be able to participate in matches and join other users when playing matches and see if my loadouts bring us victory. 
-Motivation for development: To fight for democracy without the extended hours on the battlefield and to participate on the warfront
-Description:  A battle simulator where you can modify and create loadouts and drop into the battle against the Automatons and Terminids that threaten our very way of life. Through victory or defeat we fight under the same banner, “Super Earth”
-
+- User story: I want to be able to participate in matches and join other users when playing matches and see if my loadouts bring us victory. 
+- I want to be able to add or remove loadouts, as well as the ability to modify my loadouts.
+- I want to see the stats of other users and their matches
+- To be able to view the live Campaigns
 
 
 
