@@ -126,7 +126,9 @@ router.get('/campaigns', async (req, res) => {
 router.get("/stratagems", async (req, res) => {
   try {
     console.log("================================= INSIDE STRATAGEM");
-    const stratagems = await Stratagem.findAll();
+    const stratagemData = await Stratagem.findAll();
+    const stratagems = stratagemData.map((stratagemData) => stratagemData.get({ plain: true }));
+    console.log('stratagems', stratagems)
     res.render("stratagems", { stratagems });
   } catch (err) {
     res.status(500).json(err);

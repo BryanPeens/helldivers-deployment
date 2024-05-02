@@ -2,8 +2,9 @@
 <div class="container">
     <h1>Stratagems</h1>
     <ul>
-        {{#each stratagem.type as |s|}}
-            <li>{{s.name}} - {{s.description}}</li>
+        {{#each stratagems as |s|}}
+            <ul><img class = "svg" src="/images/stratagems/{{s.filename}}" alt="{{s.name}}"></img>{{s.name}} - {{s.description}}</ul>
+            
             <!-- Add any additional strategy details here -->
         {{/each}}
     </ul>

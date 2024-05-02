@@ -4,7 +4,7 @@ const { Stratagem } = require('../models');
 const stratagemData = require('./stratagemData.json');
 
 const seedDatabase = async () => {
-    await sequelize.sync({ force: true });
+    await sequelize.sync({ force: false });
 
 const cleanstratagemData = stratagemData.map((stratagem) => {  
   return {
