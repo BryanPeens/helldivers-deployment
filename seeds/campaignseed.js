@@ -4,7 +4,7 @@ const { Campaign } = require('../models');
 const campaignData = require('./campaignData.json');
 
 const seedDatabase = async () => {
-    await sequelize.sync({ force: false });
+    await sequelize.sync({ force: true });
   console.log(campaignData);
   
 const cleancampaignData = campaignData.map((campaign) => {
