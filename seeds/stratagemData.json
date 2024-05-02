@@ -205,7 +205,7 @@
         "name": "orbital gattling barrage",
         "type": "Orbital Cannons",
         "description": "The Orbital Gatling Barrage is the stuff of nightmares for our enemies below - a relentless storm of high explosive rounds raining down from the heavens like the hammer of justice itself. Fired from the Destroyer's high-speed rotary autocannons, this barrage turns enemy formations into chaos and rubble in the blink of an eye. But don't be fooled by the size of these rounds - they may not be rockets, but they pack a punch that'll make the enemy think twice about crossing our path. These babies are like big bullets of freedom, tearing through enemy ranks with ease and leaving nothing but destruction in their wake.", 
-        "filename": "orbital-gattling-barrage.svg"
+        "filename": "orbital-gatling-barrage.svg"
     },
     {
         "name": "orbital-illumination-flare",
