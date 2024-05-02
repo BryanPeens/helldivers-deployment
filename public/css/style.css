@@ -69,6 +69,11 @@ header, .project:not(:last-child) {
   justify-content: space-evenly;
   justify-content: center;
 }
+.svg {
+  width: 5%;
+  height: 100%;
+}
+
 .campaign-card {
   background-color: black;
   border: 5px solid #ccc;

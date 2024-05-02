@@ -6,7 +6,6 @@
   "scripts": { 
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "createdb": "node ./db/schema.sql",
     "seed": "node seeds/helldiverapi.js",
     "seed2": "node seeds/campaignseed.js",
     "seed3": "node seeds/userseed.js",

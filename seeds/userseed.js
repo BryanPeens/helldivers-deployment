@@ -4,11 +4,12 @@ const { User } = require('../models');
 const userData = require('./userData.json');
 
 const seedDatabase = async () => {
-    await sequelize.sync({ force: true });
+    await sequelize.sync({ force: false });
   console.log("================================================");
   console.log(userData);
 
 const cleanuserData = userData.map((user) => {  
+  console.log(user);
   return {
     name: user.name,
     username: user.username,
@@ -21,7 +22,7 @@ const cleanuserData = userData.map((user) => {
     titleFilename: user.titleFilename,
   }
 })
-
+console.log(cleanuserData);
 await User.bulkCreate(cleanuserData, {
     individualHooks: true,
     returning: true,
