@@ -1,203 +1,45 @@
+<div class="row">
 
-<div class="container container-one">
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Edward Lawrence</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_1">
-    <div class="grid-container">
+  {{#if projects.length}}
+  <div class="col-md-6 project-list">
+    <h3>Current Loadouts:</h3>
 
-      <div class="grid-child-posts">
-        1156 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        1012 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
+    {{#each projects as |project|}}
+        <div class="card-container">
+          <div class="card">
+            <br />
+            <div>
+              <img src="/images/badge.png" alt="Person" class="badge-image" />
+              <p class="m-0" style="display: inline-block;">{{project.name}}</p>
+              <p class="m-0">{{project.battle_level}}</p>
+              <p class="m-0">{{project.description}}</p>
+            </div>
+            <br />
+            <img src={{project.avatar_image}} alt="Person" class="card__image_1">
+            <div class="grid-container">
+              <div class="grid-child-wins">
+                1156 WINS
+              </div>
+              <div class="grid-child-losses">
+                1012 LOSSES
+              </div>
+            </div>
+            <!-- Add an id to the target image -->
+            <ul class="social-icons">
+              <li><a href="#"><img src={{project.stratagem_image}} alt="Stratagem"
+                    class=""></a></li>
+              <li><a href="#"><img src={{project.orbital_cannon_image}} alt="Cannons"
+                    class=""></a></li>
+              <li><a href="#"><img src={{project.hangar_image}} alt="Hangar"
+                    class=""></a>
+              </li>
+              <li><a href="#"><img src={{project.bridge_image}} alt="Bridge"
+                    class=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    {{/each}}
   </div>
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Nolan, Merchan</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_2">
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        1305 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        1643 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
-  </div>
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Bryan Peens</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_3">
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        902 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        1300 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
-  </div>
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Sal Hobbi</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_4">
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        50152 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        4 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
-  </div>
-</div>
-
-<div class="table-container">
-  <!-- Table with dummy stats -->
-  <table id="stats-table" class="table table-striped table-bordered" style="display: none;">
-    <thead class="thead-dark">
-      <tr>
-        <th>Player</th>
-        <th>Wins</th>
-        <th>Losses</th>
-        <th>Random Number</th>
-      </tr>
-    </thead>
-    <tbody id="team2">
-      <!-- Rows for team 2 -->
-    </tbody>
-    <tbody id="team1">
-      <!-- Rows for team 1 -->
-    </tbody>
-  </table>
-</div>
-
-<div class="container container-two">
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Edward Lawrence</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_1">
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        1156 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        1012 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
-  </div>
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Nolan, Merchan</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_2">
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        1305 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        1643 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
-  </div>
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Bryan Peens</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_3">
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        902 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        1300 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
-  </div>
-  <div class="card">
-    <p class="card__name"><a class="card_badge">Badge</a>Sal Hobbi</p>
-    <img src="./images/pp.png" alt="Person" class="card__image_4">
-    <div class="grid-container">
-
-      <div class="grid-child-posts">
-        50152 WINS
-      </div>
-
-      <div class="grid-child-followers">
-        4 LOSSES
-      </div>
-
-    </div>
-    <ul class="social-icons">
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-      <li><a href="#"><img src="/images/stratagems/anti-materiel-rifle.svg" alt="Person" class=""></a></li>
-    </ul>
-    <button class="btn draw-border">READY UP</button>
-  </div>
-
+  {{/if}}
 </div>
