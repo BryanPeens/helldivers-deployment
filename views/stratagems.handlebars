@@ -1,7 +1,5 @@
-{{!-- strategies.handlebars --}}
 <div class="container">
-    <h1>Stratagems</h1>
-    <ul>
+        <h1>Stratagems</h1>
         <label>Filter data by Type</label>
         <select id="stratagemType">
             <option value="all">All</option>
@@ -11,30 +9,28 @@
             <option value="Bridge">Bridge</option>
             <option value="Engineering Bay">Engineering Bay</option>
         </select>
-        {{#each stratagems as |s|}}
-            <ul id={{s.type}}>
-                <img class = "svg" src="/images/stratagems/{{s.filename}}" alt="{{s.name}}"></img>
-                <li>{{s.name}} -</li> 
-                <li>{{s.description}}</li>
-            </ul>
-            
-            <!-- Add any additional strategy details here -->
-        {{/each}}
-    </ul>
-</div>
-<script>
-    document.getElementById('stratagemType').addEventListener('change', function() {
-        let type = this.value;
-        console.log(type);
-        let stratagems = document.querySelectorAll('ul');
-        stratagems.forEach(function(stratagem) {
-            let stratagemType = stratagem.id;
-            console.log(stratagemType);
-            if (type === 'all' || stratagemType.includes(type)) {
-                stratagem.style.display = 'block';
-            } else {
-                stratagem.style.display = 'none';
-            }
+        <ul>
+            {{#each stratagems as |s|}}
+                <ul class="stratagem" data-type="{{s.type}}">
+                    <img class="svg" src="/images/stratagems/{{s.filename}}" alt="{{s.name}}">
+                    <li>{{s.name}} -</li> 
+                    <li>{{s.description}}</li>
+                </ul>
+            {{/each}}
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById('stratagemType').addEventListener('change', function() {
+            let type = this.value;
+            let stratagems = document.querySelectorAll('.stratagem');
+            stratagems.forEach(function(stratagem) {
+                let stratagemType = stratagem.getAttribute('data-type');
+                if (type === 'all' || stratagemType === type) {
+                    stratagem.style.display = 'block';
+                } else {
+                    stratagem.style.display = 'none';
+                }
+            });
         });
-    });
-</script>
+    </script>

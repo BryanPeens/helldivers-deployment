@@ -1,12 +1,12 @@
 {{!-- home.handlebars --}}
-<div class="margin-at-top text-white">
-    <img class="d-block mx-auto" src="../images/diverlogo.png" alt="Helldivers Logo" width="760" height="320">
-    <h1 class="display-5 fw-bold text-center">Spread Managed Democracy</h1>
-    <div class="mx-auto" style="max-width: 500px;">
-        <p class="lead mb-4 text-center text-white">Become a Hero Become a Legend Become a Helldiver!</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3"><a href="/login">Sign In</a></button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="/campaigns">War Stats</a></button>
+<div class="flex flex-col items-center justify-center min-h-screen text-white bg-gray-900">
+    <img class="mx-auto mb-4" src="../images/diverlogo.png" alt="Helldivers Logo" width="760" height="320">
+    <h1 class="text-5xl font-bold text-center mb-4">Spread Managed Democracy</h1>
+    <div class="max-w-lg mx-auto text-center">
+        <p class="text-lg mb-6">Become a Hero Become a Legend Become a Helldiver!</p>
+        <div class="flex justify-center space-x-4">
+            <a href="/login" class="btn btn-primary btn-lg px-4 gap-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign In</a>
+            <a href="/campaigns" class="btn btn-outline-secondary btn-lg px-4 text-gray-900 bg-gray-100 hover:bg-gray-200 font-bold py-2 px-4 rounded">War Stats</a>
         </div>
     </div>
 </div>
