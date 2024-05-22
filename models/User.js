@@ -32,6 +32,31 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+      level: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
+      winCount: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
+      lossCount: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
+      title: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        defaultValue: "Cadet",
+      },
+      titleFilename: {
+        type: DataTypes.STRING,
+        allowNull: true,
+        defaultValue: "",
+      },
   },
   {
     hooks: {

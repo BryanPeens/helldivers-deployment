@@ -57,6 +57,7 @@ function updateButton(button) {
 }
 
 
+
   // Add click event listeners to all "READY UP" buttons
   readyButtons.forEach(function (button) {
     button.addEventListener("click", function () {
@@ -65,3 +66,7 @@ function updateButton(button) {
     });
   });
 });
+
+
+let wins = getElementById("wins");
+let losses = 0;

@@ -56,6 +56,13 @@ Project.init(
         key: 'id',
       },
     },
+    match_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'match',
+        key: 'id',
+      },
+    },
   },
   {
     sequelize,
