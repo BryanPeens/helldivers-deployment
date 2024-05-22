@@ -457,3 +457,8 @@ header, .project:not(:last-child) {
   -webkit-transition-delay: 0s, 0.25s, 0s;
   transition-delay: 0s, 0.25s, 0s;
 }
+
+.badge-image{
+  width: 22px;
+  height: 22px;
+}

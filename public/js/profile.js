@@ -1,3 +1,13 @@
+  document.getElementById('project-name').addEventListener('keyup', function(event) {
+    document.getElementById('badge_name').innerText = event.target.value.trim();
+  })
+  document.getElementById('project-level').addEventListener('keyup', function(event) {
+    document.getElementById('badge_level').innerText = event.target.value.trim();
+  })
+  document.getElementById('project-desc').addEventListener('keyup', function(event) {
+    document.getElementById('badge_description').innerText = event.target.value.trim();
+  })
+
 // Avatar selection handling
 document.addEventListener("DOMContentLoaded", function() {
   event.preventDefault();
@@ -106,9 +116,9 @@ const newFormHandler = async (event) => {
   // Prevent the default form submission behavior
   event.preventDefault();
 
-  // Retrieve the values of inputs for project name, funding, and description
+  // Retrieve the values of inputs for project name, battleLevel, and description
   const name = document.querySelector('#project-name').value.trim();
-  const needed_funding = document.querySelector('#project-funding').value.trim();
+  const battle_level = document.querySelector('#project-level').value.trim();
   const description = document.querySelector('#project-desc').value.trim();
 
   // Retrieve the URLs of the selected images
@@ -121,13 +131,13 @@ const newFormHandler = async (event) => {
   const avatarImage = document.getElementById('main-avatar-image').getAttribute('src');
 
   // Check if all required fields are filled
-  if (name && needed_funding && description) {
+  if (name && battle_level && description) {
     // If all fields are filled, send a POST request to the server
     const response = await fetch(`/api/projects`, {
       method: 'POST', // Using the POST method to create a new resource
       body: JSON.stringify({ 
         name, 
-        needed_funding, 
+        battle_level, 
         description,
         stratagemImage,
         orbitalCannonImage,
@@ -173,4 +183,4 @@ document
 
 document
   .querySelector('.project-list')
-  .addEventListener('click', delButtonHandler);
+  ?.addEventListener('click', delButtonHandler);

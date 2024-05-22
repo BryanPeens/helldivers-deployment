@@ -7,18 +7,18 @@
 <div class="row mt-4">
   <div class="col-md-6">
     <form class="form new-project-form">
-        <div class="form-group">
-          <label for="project-name">Enter Username:</label>
-          <input class="form-input" type="text" id="project-name" name="project-name" />
-        </div>
-        <div class="form-group">
-          <label for="project-funding">Battle Level:</label>
-          <input class="form-input" type="number" id="project-funding" name="project-funding" />
-        </div>
-        <div class="form-group">
-          <label for="project-desc">Description:</label>
-          <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
-        </div>
+      <div class="form-group">
+        <label for="project-name">Enter Username:</label>
+        <input class="form-input" type="text" id="project-name" name="project-name" />
+      </div>
+      <div class="form-group">
+        <label for="project-level">Battle Level:</label>
+        <input class="form-input" type="number" id="project-level" name="project-level" />
+      </div>
+      <div class="form-group">
+        <label for="project-desc">Description:</label>
+        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+      </div>
 
       <div class="form-group">
         <div class="menu-container bg-primary">
@@ -175,7 +175,16 @@
     <h3>Create your loadout</h3>
     <div class="card-container">
       <div class="card">
-        <p class="card_name"><a class="card_badge">{{title}}</a>{{name}}</p>
+
+        <br />
+        <div id="badge" class="">
+          <img id="badge-image" src="/images/badge.png" alt="Person" class="badge-image" />
+          <p id="badge_name" class="m-0" style="display: inline-block;">Username</p>
+          <p id="badge_level" class="m-0">Battle Level</p>
+          <p id="badge_description" class="m-0">Description</p>
+        </div>
+        <br />
+
         <img id="main-avatar-image" src="/images/avatar1.png" alt="Person" class="card__image_1">
         <div class="grid-container">
           <div class="grid-child-wins">
@@ -201,14 +210,14 @@
     {{!-- Avatar selecting happens here --}}
     <div class="">
       <h3>Choose Avatar</h3>
-       <ul class="avatar-icons">
-          <li><a href="#"><img id="avatar1" src="/images/avatar1.png" alt="Person" class="avatar_image"></a></li>
-          <li><a href="#"><img id="avatar2" src="/images/avatar2.png" alt="Person" class="avatar_image"></a></li>
-          <li><a href="#"><img id="avatar3" src="/images/avatar3.png" alt="Person" class="avatar_image"></a></li>
-          <li><a href="#"><img id="avatar4" src="/images/avatar4.png" alt="Person" class="avatar_image"></a></li>
-          <li><a href="#"><img id="avatar5" src="/images/avatar5.png" alt="Person" class="avatar_image"></a></li>
-          <li><a href="#"><img id="avatar6" src="/images/avatar1.png" alt="Person" class="avatar_image"></a></li>
-        </ul>
+      <ul class="avatar-icons">
+        <li><a href="#"><img id="avatar1" src="/images/avatar1.png" alt="Person" class="avatar_image"></a></li>
+        <li><a href="#"><img id="avatar2" src="/images/avatar2.png" alt="Person" class="avatar_image"></a></li>
+        <li><a href="#"><img id="avatar3" src="/images/avatar3.png" alt="Person" class="avatar_image"></a></li>
+        <li><a href="#"><img id="avatar4" src="/images/avatar4.png" alt="Person" class="avatar_image"></a></li>
+        <li><a href="#"><img id="avatar5" src="/images/avatar5.png" alt="Person" class="avatar_image"></a></li>
+        <li><a href="#"><img id="avatar6" src="/images/avatar1.png" alt="Person" class="avatar_image"></a></li>
+      </ul>
     </div>
   </div>
 
@@ -217,24 +226,40 @@
     <h3>Current Loadouts:</h3>
 
     {{#each projects as |project|}}
-    <div class="row mb-2 bg-primary d-sm-inline-flex">
-      <div class="col-md-12 pa">
-        <ul class="social-icons">
-          <img id="main-avatar-image" src="{{project.avatar_image}}" alt="Person" class="card__image_1">
-          <li><a href="#"><img id="stratagem" src="{{project.stratagem_image}}" alt="Stratagem"
-                class=""></a></li>
-          <li><a href="#"><img id="orbital_cannon" src="{{project.orbital_cannon_image}}" alt="Cannons"
-                class=""></a></li>
-          <li><a href="#"><img id="hangar" src="{{project.hangar_image}}" alt="Hangar" class=""></a>
-          </li>
-          <li><a href="#"><img id="bridge" src="{{project.bridge_image}}" alt="Bridge" class=""></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
-      </div>
-    </div>
+        <div class="card-container">
+          <div class="card">
+            <br />
+            <div>
+              <img src="/images/badge.png" alt="Person" class="badge-image" />
+              <p class="m-0" style="display: inline-block;">{{project.name}}</p>
+              <p class="m-0">{{project.battle_level}}</p>
+              <p class="m-0">{{project.description}}</p>
+            </div>
+            <br />
+            <img src={{project.avatar_image}} alt="Person" class="card__image_1">
+            <div class="grid-container">
+              <div class="grid-child-wins">
+                1156 WINS
+              </div>
+              <div class="grid-child-losses">
+                1012 LOSSES
+              </div>
+            </div>
+            <!-- Add an id to the target image -->
+            <ul class="social-icons">
+              <li><a href="#"><img src={{project.stratagem_image}} alt="Stratagem"
+                    class=""></a></li>
+              <li><a href="#"><img src={{project.orbital_cannon_image}} alt="Cannons"
+                    class=""></a></li>
+              <li><a href="#"><img src={{project.hangar_image}} alt="Hangar"
+                    class=""></a>
+              </li>
+              <li><a href="#"><img src={{project.bridge_image}} alt="Bridge"
+                    class=""></a>
+              </li>
+            </ul>
+          </div>
+        </div>
     {{/each}}
   </div>
   {{/if}}

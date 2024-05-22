@@ -14,15 +14,20 @@ Project.init(
     name: {
       type: DataTypes.STRING,
       allowNull: false,
+    },    
+    description: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
+    
     date_created: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
+    battle_level: {
       type: DataTypes.FLOAT,
-      allowNull: false,
+      allowNull: true,
     },
     stratagem_image: {
       type: DataTypes.STRING, // Assuming URLs are stored as strings

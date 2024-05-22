@@ -44,7 +44,7 @@ Campaign.init({
     },
     majorOrder: {
         type: DataTypes.BOOLEAN,
-        allowNull: false
+        allowNull: true
     },
     biome: {
         type: DataTypes.STRING,

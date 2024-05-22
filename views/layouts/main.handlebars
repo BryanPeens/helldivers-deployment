@@ -6,43 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helldivers Monitor</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/jass.css">
     <link rel="stylesheet" href="/css/style.css">    
-    {{!-- <link rel="stylesheet" href="/css/match_styles.css"> --}}
 </head>
 
-<body class="diver_background flex">
-    <div class="flex-column justify-space-around">
-        <header class="display-flex justify-space-between align-center p-2 bg-secondary">
+<body class="bg-gray-900 text-white">
+    <div class="flex flex-col min-h-screen">
+        <header class="flex justify-between items-center p-4 bg-gray-800">
             <h1>
-                <a class="navbar-brand" href="/">HELLDIVERS DEPLOYMENT</a>
+                <a class="text-3xl font-bold" href="/">HELLDIVERS DEPLOYMENT</a>
             </h1>
-            <nav class="display-flex gap-2 text-info text-lg">
-                <a class="nav-link" href="/matches">Matches</a>
-                <a class="nav-link" href="/stratagems">Strategems</a>
-                {{!-- <a class="nav-link" href="/loadouts">Loadouts</a> --}}
-                <a class="nav-link" href="/campaigns">Campaigns</a>
-                <!-- Conditionally render login or logout links -->
-                {{#if logged_in}}
-                <a href="/profile">profile</a> |
-                <button class="no-button" id="logout">logout</button>
-                {{else}}
-                <a href="/login">login</a>
-                {{/if}}
+            <nav class="relative">
+                <button class="lg:hidden flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-400 hover:border-gray-400" onclick="document.getElementById('nav-menu').classList.toggle('hidden');">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="nav-menu" class="hidden lg:flex lg:items-center lg:space-x-4">
+                    <li><a class="text-lg text-white hover:text-gray-400" href="/matches">Matches</a></li>
+                    <li><a class="text-lg text-white hover:text-gray-400" href="/stratagems">Strategems</a></li>
+                    <li><a class="text-lg text-white hover:text-gray-400" href="/campaigns">Campaigns</a></li>
+                    {{#if logged_in}}
+                    <li><a class="text-lg text-white hover:text-gray-400" href="/profile">Profile</a></li>
+                    <li><button class="text-lg text-white hover:text-gray-400 no-button" id="logout">Logout</button></li>
+                    {{else}}
+                    <li><a class="text-lg text-white hover:text-gray-400" href="/login">Login</a></li>
+                    {{/if}}
+                </ul>
             </nav>
         </header>
-        <main class="container container-fluid mt-5 ">
+        <main class="flex-grow container mx-auto p-4 mt-5">
             <!-- Render the sub layout -->
             {{{ body }}}
         </main>
-        <footer>
-
+        <footer class="bg-gray-800 p-4 text-center">
+            <p>&copy; 2024 Helldivers Deployment. All rights reserved.</p>
         </footer>
     </div>
 

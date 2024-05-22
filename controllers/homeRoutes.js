@@ -75,24 +75,22 @@ router.get("/login", (req, res) => {
 
 // routes for links to views
 // get matches
-router.get("/matches", async (req, res) => {
+router.get("/matches", withAuth, async (req, res) => {
   try {
-    const matchData = await Match.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ["name"],
-        },
-      ],
+    // Find the logged in user based on the session ID
+    const userData = await User.findByPk(req.session.user_id, {
+      attributes: { exclude: ['password'] },
+      include: [{ model: Project }],
     });
 
-    const matches = matchData.map((match) => match.get({ plain: true }));
+    const user = userData.get({ plain: true });
 
-    res.render("matches", {
-      matches,
+    res.render('matches', {
+      ...user,
       logged_in: req.session.logged_in,
     });
   } catch (err) {
+    console.error(err);
     res.status(500).json(err);
   }
 });
@@ -176,29 +174,6 @@ router.get('/profile', withAuth, async (req, res) => {
     });
   } catch (err) {
     console.log(err);
-    res.status(500).json(err);
-  }
-});
-
-// Use withAuth middleware to prevent access to route
-router.get('/matches', withAuth, async (req, res) => {
-  try {
-    // Find the logged in user based on the session ID
-    const userData = await User.findByPk(req.session.user_id, {
-      attributes: { exclude: ['password'] },
-      include: [{ 
-        model: Project,
-        include: [{ model: User, attributes: ['name'] }]
-      }],
-    });
-
-    const projects = userData.Projects.map(project => project.get({ plain: true }));
-
-    res.render('matches', {
-      projects,
-      logged_in: true
-    });
-  } catch (err) {
     res.status(500).json(err);
   }
 });
